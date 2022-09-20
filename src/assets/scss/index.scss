@@ -16,7 +16,6 @@ body {
   // z-index: -100;
 }
 
-
 .image-wrapper {
   position: relative;
   width: 100%;
@@ -32,5 +31,18 @@ body {
   z-index: 200;
   top: 32%;
   left: 15.5%;
+}
 
+.company-message {
+  z-index: 201;
+  position: absolute;
+  top: 43%;
+  left: 43%;
+  font: normal normal normal 51px/63px Atkinson Hyperlegible;
+
+}
+
+.company-message p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
