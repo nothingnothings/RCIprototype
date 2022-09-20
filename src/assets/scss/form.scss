@@ -1,0 +1,17 @@
+
+
+main {
+  padding-top: 1rem;
+}
+
+.signup-container {
+  border: 3px solid var(--white-highlight);
+  width: calc(100% - 50px);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 1.5s ease-in;
+}
