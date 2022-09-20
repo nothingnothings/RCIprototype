@@ -84,6 +84,7 @@ main {
 
 .active {
   color: var(--blue);
+  pointer-events: none;
 }
 
 .default-cursor {

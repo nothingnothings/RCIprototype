@@ -46,6 +46,10 @@ module.exports = {
       filename: 'index.html',
       template: 'src/index.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'quem-somos.html',
+      template: 'src/quem-somos.html',
+    }),
     new CleanWebpackPlugin(),
   ],
 
