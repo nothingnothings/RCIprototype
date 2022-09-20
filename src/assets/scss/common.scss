@@ -31,29 +31,9 @@ html {
   font-size: 100%;
 }
 
-// @supports (display: grid) {
-//   body {
-//     -webkit-box-sizing: border-box;
-//     box-sizing: border-box;
-//     display: -ms-grid;
-//     display: grid;
-//     -ms-grid-rows: 3.5rem auto fit-content(8rem);
-//     grid-template-rows: 3.5rem auto fit-content(8rem);
-//     height: 100%;
-//     padding-top: 0;
-//     grid-template-areas:
-//       'header'
-//       'main'
-//       'footer';
-//   }
-// }
-
-// main {
-//   -ms-grid-row: 2;
-//   -ms-grid-column: 1;
-//   transition: margin-left 1s;
-//   grid-area: main;
-// }
+main {
+  padding-top: 0 !important;
+}
 
 .custom-navbar {
   position: absolute;
@@ -65,10 +45,42 @@ html {
   margin-right: 7rem;
 }
 
-main {
-  padding-top: 0 !important;
+// .nav-item {
+//   border: 2px solid green;
+// }
+
+.nav-link-custom {
+  display: block;
+  position: relative;
 }
 
+
+.nav-link-custom:after {
+  background: none repeat scroll 0 0 transparent;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 8%;
+  width: 85%;
+  height: 0.1em;
+  background: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease 0s
+}
+
+
+
+.nav-link-custom:hover::after {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.nav-link-custom:hover {
+  text-decoration: none;
+  color: var(--white);
+}
 
 @media (max-width: 40rem) {
   .main-nav {
