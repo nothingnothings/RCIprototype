@@ -50,10 +50,24 @@ body {
   margin-bottom: 0;
 }
 
-.info {
-  height: 60vh;
-  width: 100%;
+#info {
   background-color: var(--light-yellow-1);
+  // display: flex;
+  // justify-content: start;
+  // flex-direction: column;
+  // max-height: 80vh;
+  min-height: 70vh;
+}
+
+.example-row {
+  border: 3px solid purple;
+}
+
+.info-container {
+  border: 3px solid green;
+
+  // height: 100%;
+  // width: 100%;
 }
 
 .info-col {
@@ -68,7 +82,40 @@ body {
   text-transform: uppercase;
   font-size: 21px;
   line-height: 30px;
-  letter-spacing: 2.13px;
+  letter-spacing: 0.3px;
   color: var(--blue);
   opacity: 1;
+}
+
+.info-description {
+  font: normal normal normal 38px/45px Atkinson Hyperlegible;
+  margin-top: 4rem;
+}
+
+.info-description__line {
+  margin-bottom: 0;
+}
+
+.redirect-link {
+  border: 2px solid var(--blue);
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  a {
+    color: var(--blue);
+  }
+}
+
+.redirect-link:hover {
+  background-color: var(--blue);
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
+}
+
+#perks {
+  min-height: 70vh;
+  background-color: var(--blue);
 }

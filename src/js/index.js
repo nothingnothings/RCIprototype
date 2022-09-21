@@ -1,18 +1,24 @@
+//bootstrap defaults editing
 import '../assets/scss/main.scss';
 
+//project styles
 import '../assets/scss/index.scss';
 import '../assets/scss/common.scss';
 import '../assets/scss/form.scss';
 import '../assets/scss/footer.scss';
 
+//background images
 import '../assets/images/background-images/Retangulo98.png';
 import '../assets/images/background-images/Retangulo99.png';
 import '../assets/images/background-images/Retangulo100.png';
 import '../assets/images/background-images/Retangulo101.png';
 
+//image objects
+import '../assets/images/page-objects/Grupo117.png';
+
+//fonts
 import '../assets/fonts/ProductSansMedium.ttf';
 import '../assets/fonts/SprintSansMedium.otf';
-
 
 import favIcon16 from '../assets/images/favicon-16x16.png';
 import favIcon32 from '../assets/images/favicon-32x32.png';
