@@ -15,6 +15,9 @@ import '../assets/images/background-images/Retangulo101.png';
 
 //image objects
 import '../assets/images/page-objects/Grupo117.png';
+import '../assets/images/page-objects/Grupo113.png';
+import '../assets/images/page-objects/Grupo109.png';
+
 
 //fonts
 import '../assets/fonts/ProductSansMedium.ttf';
