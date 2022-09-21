@@ -30,7 +30,7 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
-        test: /\.(woff|woff2|ttf|eot)$/,
+        test: /\.(woff|woff2|otf|ttf|eot)$/,
         type: 'asset/resource',
       },
 
@@ -49,6 +49,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'quem-somos.html',
       template: 'src/quem-somos.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'o-que-fazemos.html',
+      template: 'src/o-que-fazemos.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'RCInsights.html',
+      template: 'src/RCInsights.html',
     }),
     new CleanWebpackPlugin(),
   ],

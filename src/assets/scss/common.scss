@@ -52,6 +52,7 @@ main {
 .nav-link-custom {
   display: block;
   position: relative;
+  transition-property: color;
 }
 
 
@@ -65,7 +66,7 @@ main {
   left: 8%;
   width: 85%;
   height: 0.1em;
-  background: #fff;
+  background: var(--white);
   opacity: 0;
   transition: opacity 0.3s ease 0s
 }
@@ -80,6 +81,18 @@ main {
 .nav-link-custom:hover {
   text-decoration: none;
   color: var(--white);
+}
+
+.nav-link-custom:active::after {
+  opacity: 0;
+  text-decoration: none;
+}
+
+.nav-link-custom:active {
+  text-decoration: none;
+  color: var(--blue);
+
+  transition-duration: 0.3s;
 }
 
 .active {

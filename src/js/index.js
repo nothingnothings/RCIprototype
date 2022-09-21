@@ -6,6 +6,12 @@ import '../assets/scss/form.scss';
 import '../assets/scss/footer.scss';
 
 import '../assets/images/background-images/Retangulo98.png';
+import '../assets/images/background-images/Retangulo99.png';
+import '../assets/images/background-images/Retangulo100.png';
+import '../assets/images/background-images/Retangulo101.png';
+
+import '../assets/fonts/ProductSansMedium.ttf';
+import '../assets/fonts/SprintSansMedium.otf';
 
 
 import favIcon16 from '../assets/images/favicon-16x16.png';
