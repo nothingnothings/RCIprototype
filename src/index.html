@@ -584,12 +584,16 @@
             <section id="contact-form">
                 <div class="container-fluid">
                     <div class="row d-flex justify-content-center">
-                        <div class="container d-flex justify-content-center flex-nowrap">
+                        <div class="container flex-nowrap mt-5 pt-5">
+                            
                             <form action="">
+                                <div class="row mt-4">
+
+                              
                                 <!-- <div class="col-6"> -->
-                                    <div class="col-6">
+                                    <div class="col-6 pr-5">
                                 <div class="form-group">
-                                    <label for="nome">Nome*</label>
+                                    <label for="nome" class="custom-form-control-label">Nome*</label>
                                     <input
                                         name="nome"
                                         type="text"
@@ -599,7 +603,7 @@
                                     >
                                 </div>
                                 <div class="form-group">
-                                    <label for="email">Email*</label>
+                                    <label for="email" class="custom-form-control-label">Email*</label>
                                     <input
                                         type="email"
                                         name="email"
@@ -609,7 +613,7 @@
                                     >
                                 </div>
                                 <div class="form-group">
-                                    <label for="telefone">Telefone*</label>
+                                    <label for="telefone" class="custom-form-control-label">Telefone*</label>
                                     <input
                                         type="tel"
                                         name="phone"
@@ -618,7 +622,7 @@
                                     >
                                 </div>
                                 <div class="form-group">
-                                    <label for="empresa">Empresa</label>
+                                    <label for="empresa" class="custom-form-control-label">Empresa</label>
                                     <input
                                         type="text"
                                         name="company"
@@ -629,25 +633,33 @@
                             </div>
                                 <!-- </div> -->
                                 <!-- <div class="col-6"> -->
-                                    <div class="col-6">
+                                    <div class="col-6 pl-5">
                                 <div class="form-group">
-                                    <label for="motivo">Motivo do Contato*</label>
-                                    <select class="form-control custom-form-control" name="reason" placeholder="Selecione uma opção...">
+                                    <label for="motivo" class="custom-form-control-label">Motivo do Contato*</label>
+                                    <select class="form-control custom-form-control custom-select" name="reason">
+                                        <option value="" selected>Selecione uma opção...</option>
                                         <option value="informacoes">Informações</option>
                                         <option value="contratacao">Contratação</option>
                                         <option value="sugestoes">Sugestões</option>
                                     </select>
                                 </div>
-                                <div class="form-group">
-                                    <label for="empresa">Escreva-nos uma mensagem!*</label>
+                                <div class="form-group" >
+                                    <label for="empresa" class="custom-form-control-label custom-form-textarea">Escreva-nos uma mensagem!*</label>
                                     <textarea
+                                    style="margin-top: 0.45rem;"
                                      class="form-control custom-form-control" 
                                      name="message" 
-                                     rows="5"
+                                     rows="6"
                                      placeholder="Escreva sua mensagem aqui..."></textarea>
                                 </div>
+                                <div class="button-wrapper d-flex justify-content-end pt-2">
+                                <button type="submit" class="form-button mt-5">
+                                    Enviar
+                                </button>
+                            </div>
                             </div>
                                 <!-- </div> -->
+                            </div>
                             </form>
                         </div>
                     </div>
