@@ -17,6 +17,10 @@ import '../assets/images/background-images/Retangulo101.png';
 import '../assets/images/page-objects/Grupo117.png';
 import '../assets/images/page-objects/Grupo113.png';
 import '../assets/images/page-objects/Grupo109.png';
+import '../assets/images/page-objects/Grupo14.png';
+import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_04.png'
+import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_07.png'
+import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png'
 
 //logos
 import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';

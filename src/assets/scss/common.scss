@@ -45,10 +45,6 @@ main {
   margin-right: 7rem;
 }
 
-// .nav-item {
-//   border: 2px solid green;
-// }
-
 .nav-link-custom {
   display: block;
   position: relative;
@@ -91,6 +87,10 @@ main {
   transition-duration: 0.3s;
 }
 
+.svg-link:hover {
+  color: transparent;
+}
+
 .active {
   color: var(--blue);
   pointer-events: none;
@@ -102,7 +102,7 @@ main {
 
 .arrow-line {
   width: 12px;
-  height: 2px;
+  height: 2.6px;
   background-color: #fff;
   position: absolute;
   top: 14px;
@@ -111,7 +111,7 @@ main {
 
 .arrow {
   width: 12px;
-  height: 2px;
+  height: 2.6px;
   background-color: #fff;
   position: relative;
   top: 14px;
