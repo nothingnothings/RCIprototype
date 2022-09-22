@@ -18,6 +18,15 @@ import '../assets/images/page-objects/Grupo117.png';
 import '../assets/images/page-objects/Grupo113.png';
 import '../assets/images/page-objects/Grupo109.png';
 
+//logos
+import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_DELL.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_IBM.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_INGRAM.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_OUTSYSTEMS.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_SQREAM.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_TABLEAU.png';
+import '../assets/images/logos/RCI_ASSETS_Logos_Varicent.png';
 
 //fonts
 import '../assets/fonts/ProductSansMedium.ttf';

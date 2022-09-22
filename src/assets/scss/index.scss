@@ -105,14 +105,14 @@ body {
 }
 
 #perks {
-  min-height: 70vh;
+  min-height: 80vh;
   background-color: var(--blue);
 }
 
 .services-title {
   font-style: normal;
   font-variant: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-family: 'Sprint Sans', sans-serif;
   font-size: 21px;
   line-height: 30px;
@@ -151,29 +151,22 @@ body {
   }
 }
 
-
 .service-link a:hover {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .service-link {
   display: block;
   position: relative;
   transition-property: color;
+  a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 0.5em 0.7em 0.5em 0.7em;
+    margin: -0.5em -0.7em -0.5em -0.7em;
+  }
 }
-
 
 .service-link:after {
   background: none repeat scroll 0 0 transparent;
@@ -182,16 +175,85 @@ body {
   position: absolute;
   top: 100%;
   bottom: 0;
-  left: 8%;
-  width: 85%;
-  height: 0.1em;
+  left: 0%;
+  width: 36%;
+  height: 0.2em;
   background: var(--white);
   opacity: 0;
-  transition: opacity 0.3s ease 0s
+  transition: opacity 0.3s ease 0s;
 }
-
 
 .service-link:hover {
   text-decoration: none;
   color: var(--white);
+}
+
+.service-link:hover::after {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.service-link-line:hover ~ .arrow {
+  // background-color: red;
+  transform: translateX(9.9px);
+  transition: all ease-out 0.3s;
+}
+
+#partners-and-clients {
+  background-color: var(--white);
+  min-height: 100vh;
+}
+
+.partners-clients-header {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  color: var(--blue);
+  font-family: 'Sprint Sans', sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 2.13px;
+  opacity: 1;
+}
+
+.client-quote__line {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  color: var(--dark);
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.client-link {
+  color: var(--blue) !important;
+}
+
+.client-link::after {
+  background-color: var(--blue) !important;
+  width: 13.4%;
+}
+
+.client-link-line {
+  color: var(--blue) !important;
+}
+
+.client-arrow-line {
+  background-color: var(--blue) !important;
+}
+
+.client-arrow {
+  background-color: var(--blue) !important;
+}
+
+.client-arrow::before {
+  background-color: var(--blue) !important;
+}
+
+.client-arrow::after {
+  background-color: var(--blue) !important;
 }
