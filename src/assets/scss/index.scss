@@ -163,8 +163,8 @@ body {
     display: inline-block;
     position: relative;
     z-index: 1;
-    padding: 0.5em 0.7em 0.5em 0.7em;
-    margin: -0.5em -0.7em -0.5em -0.7em;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: -0.5em -1em -0.5em -1em;
   }
 }
 
@@ -467,5 +467,33 @@ body {
 
 #footer {
   background-color: var(--dark-blue);
-  height: 40vh;
+  height: 50vh;
+}
+
+.footer-header-wrapper {
+  border-bottom: 3px solid var(--blue);
+}
+
+.footer-header-link {
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.footer-link {
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  font-size: 21.33px;
+  line-height: 26px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.footer-description__line {
+  margin-bottom: 0;
 }
