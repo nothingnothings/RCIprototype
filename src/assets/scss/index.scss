@@ -486,6 +486,9 @@ body {
   font-weight: normal;
   letter-spacing: 0px;
   opacity: 1;
+   a {
+    color: var(--white);
+   }
 }
 
 .footer-link {
@@ -496,7 +499,12 @@ body {
   font-weight: normal;
   letter-spacing: 0px;
   opacity: 1;
+
+  a {
+    color: var(--white);
+  }
 }
+
 
 .footer-description__line {
   margin-bottom: 0;
@@ -521,4 +529,10 @@ body {
   letter-spacing: 0px;
   opacity: 1;
 
+
+}
+
+
+.location {
+  width: 40vh;
 }
