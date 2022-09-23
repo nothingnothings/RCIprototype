@@ -467,9 +467,13 @@ body {
 
 #footer {
   background-color: var(--dark-blue);
-  height: 50vh;
+  height: 60vh;
 }
 
+.footer-row {
+  margin-left: 5rem !important;
+
+}
 .footer-header-wrapper {
   border-bottom: 3px solid var(--blue);
 }
@@ -496,4 +500,13 @@ body {
 
 .footer-description__line {
   margin-bottom: 0;
+  font-size: 21.33px;
+  line-height: 26px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.logo-column {
+  gap: 5.2rem;
 }
