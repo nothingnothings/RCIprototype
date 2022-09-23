@@ -1,17 +1,78 @@
 
+// FORM
 
-main {
-  padding-top: 1rem;
+#contact-form {
+  min-height: 70vh;
+  background-color: var(--white-1);
 }
 
-.signup-container {
-  border: 3px solid var(--white-highlight);
-  width: calc(100% - 50px);
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 5rem;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  animation: fadeIn 1.5s ease-in;
+.custom-form-control {
+  resize: none;
+  background-color: var(--white-1);
+  border: none;
+  border-bottom: 2px solid var(--grey-1);
+  border-radius: 0;
+  padding: 0;
+}
+
+.custom-form-control:focus {
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px solid var(--grey-1);
+  background-color: var(--white-1);
+}
+
+.custom-form-control::placeholder {
+  color: var(--white-3);
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  font-size: 21.33px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.custom-form-control-label {
+  color: var(--dark);
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  font-size: 21.33px;
+  line-height: 26px;
+  font-weight: normal;
+  margin-bottom: 1.45rem;
+  margin-top: 1.22rem;
+}
+
+.custom-form-textarea {
+  margin-top: 1.5rem;
+}
+
+.custom-select {
+  color: var(--white-3);
+  appearance: none;
+}
+
+.custom-select:visited {
+  color: var(--dark);
+}
+
+.custom-select option:not(:first-of-type) {
+  color: var(--dark);
+}
+
+.form-button {
+  border: 2px solid var(--blue);
+  color: var(--blue);
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  font-size: 21.33px;
+  line-height: 26px;
+  font-weight: normal;
+  padding: 0.78rem 4rem;
+  background-color: var(--white-1);
+}
+
+.form-button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  transition: ease-out 0.3s;
 }
