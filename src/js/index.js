@@ -6,6 +6,7 @@ import '../assets/scss/index.scss';
 import '../assets/scss/common.scss';
 import '../assets/scss/form.scss';
 import '../assets/scss/footer.scss';
+import '../assets/scss/quem-somos.scss';
 
 //background images
 import '../assets/images/background-images/Retangulo98.png';
@@ -47,10 +48,11 @@ import mstTile from '../assets/images/mstile-150x150.png';
 import safariPinned from '../assets/images/safari-pinned-tab.svg';
 import browserConfig from '../assets/images/browserconfig.xml';
 
-var modalNoButton = document.querySelector('.modal__action--negative');
-var selectPlanButtons = document.querySelectorAll('.plan button');
-var toggleButton = document.querySelector('.toggle-button');
-var closeBtn = document.querySelector('.closebtn');
-var mobileNav = document.querySelector('.mobile-nav');
-var ctaButton = document.querySelector('.main-nav__item--cta');
-var selectPlanButtons = document.querySelectorAll('.plan button');
+
+
+
+
+
+$('#carousel').carousel({
+    interval: false
+});

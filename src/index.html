@@ -11,11 +11,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
         <title>RCI</title>
+        <script>
+
+
+var request = new XMLHttpRequest();
+request.open('GET', 'https://api.instagram.com/v1/users/self/media/recent/?access_token=ENTER-YOUR-ACCESS-TOKEN-HERE&count=8', true);
+request.onload = function(container) {
+    if (request.status >= 200 && request.status < 400) {
+        // Success!
+        var data = JSON.parse(request.responseText);
+        for (var i=0;i < data.data.length;i++) {
+            var container = document.getElementById('insta-feed');
+            var imgURL = data.data[i].images.standard_resolution.url;
+            console.log(imgURL);
+            var div = document.createElement('div');
+            div.setAttribute('class','instapic');
+            container.appendChild(div);
+            var img = document.createElement('img');
+            img.setAttribute('src',imgURL)
+            div.appendChild(img);
+        }
+        console.log(data);
+    } else { }
+};
+request.onerror = function() {
+ 
+};
+request.send();
+
+
+        </script>
     </head>
     <body>
         <header>
             <nav class="navbar navbar-expand bg-transparent fixed-top custom-navbar">
-                <a href="#" class="navbar-brand pl-5 active">
+                <a href="#" class="navbar-brand pl-5 active-class">
                     <svg
                         id="svg1317"
                         width="200"
@@ -388,7 +418,7 @@
                                 <p class="info-description__line">que eles estejam.</p>
                             </div>
                             <div class="mt-5">
-                                <a class="redirect-link" href="./quem-somos.html">Saiba mais</a>
+                                <a class="redirect-link info-link" href="./quem-somos.html">Saiba mais</a>
                             </div>
                         </div>
                     </div>
@@ -558,6 +588,7 @@
             </section>
             <section id="instagram-cards">
                 <div class="container d-flex flex-column align-items-center mt-5">
+                    <div id="insta-feed"></div>
                     <div class="container-fluid d-flex justify-content-center mt-5 pt-3">
                         <div class="row services justify-content-between flex-nowrap mt-5">
                             <div class="col-4 instagram-card flex-column mx-2">
