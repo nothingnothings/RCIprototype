@@ -95,8 +95,12 @@ var itemsMainDiv = ('.multi-carousel');
 var itemsDiv = ('.multi-carousel-inner');
   var itemWidth = "";
 
-  $('.leftLst, .rightLst').click(function () {
-      var condition = $(this).hasClass("leftLst");
+//   $('#btn-left-carousel, #btn-right-carousel').click(function () {
+    $('.leftLst, .rightLst').click(function () {
+
+  
+    // var condition = $(this).is('#btn-left-carousel');
+    var condition = $(this).hasClass("leftLst");
       if (condition)
           click(0, this);
       else
@@ -154,6 +158,8 @@ var itemsDiv = ('.multi-carousel-inner');
 
           $(".leftLst").addClass("over");
           $(".rightLst").removeClass("over");
+        // $("#btn-left-carousel").addClass("over");
+        // $("#btn-right-carousel").removeClass("over");
 
       });
   }
@@ -164,8 +170,11 @@ var itemsDiv = ('.multi-carousel-inner');
   function ResCarousel(e, el, s) {
       var leftBtn = ('.leftLst');
       var rightBtn = ('.rightLst');
+    // var leftBtn = ('#btn-left-carousel');
+    // var rightBtn = ('#btn-right-carousel');
       var translateXval = '';
       var divStyle = $(el + ' ' + itemsDiv).css('transform');
+      console.log(divStyle, 'DIVSTYLE');
       var values = divStyle.match(/-?[\d\.]+/g);
       var xds = Math.abs(values[4]);
       if (e == 0) {
@@ -193,14 +202,13 @@ var itemsDiv = ('.multi-carousel-inner');
   //It is used to get some elements from btn
   function click(ell, ee) {
 
-
+    console.log(ell, ee, 'LINE', $(ee).parent())
       var Parent = "#" + $(ee).parent().attr("id");
-      
+      console.log(Parent, 'Parent')
       var slide = $(Parent).attr("data-slide");
       console.log(ell, Parent, slide )
       ResCarousel(ell, Parent, slide);
 
-      runNumber++;
   }
 
 });

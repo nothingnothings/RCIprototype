@@ -13,8 +13,8 @@
 
 #prizes {
   height: 70.5vh;
-  // background-color: var(--blue);
-  background-color: red;
+  background-color: var(--blue);
+  // background-color: red;
 }
 
 .prize-example {
@@ -103,12 +103,13 @@
   float: left;
   overflow: hidden;
   // padding: 15px;
-  background-color: green;
+  // background-color: green;
+  background-color: var(--blue);
   width: 100%;
   position: relative;
 }
 .multi-carousel .multi-carousel-inner {
-  transition: 1s ease all;
+  transition: 0.5s ease all;
   float: left;
 }
 .multi-carousel .multi-carousel-inner .item {
@@ -116,9 +117,12 @@
 }
 .multi-carousel .multi-carousel-inner .item > div {
   text-align: center;
-  padding: 15px;
-  margin: 22px;
-  background: #f1f1f1;
+  // padding: 15px;
+  // margin: 120px;
+  // margin: 0 120px 0 120px;
+  // margin-right: 120px;
+  // background: #f1f1f1;
+  background-color: var(--blue);
   color: #666;
 }
 .multi-carousel .leftLst,
@@ -128,14 +132,38 @@
   top: calc(50% - 20px);
 }
 .multi-carousel .leftLst {
-  left: 0;
+  left: -0.5rem;
 }
 .multi-carousel .rightLst {
-  right: 0;
+  right: -0.5rem;
 }
 
 .multi-carousel .leftLst.over,
 .multi-carousel .rightLst.over {
   pointer-events: none;
+  // background: #ccc;
+}
+
+.multi-carousel .leftLst:hover,
+.multi-carousel .rightLst.hover {
   background: #ccc;
+}
+
+.item {
+  margin: 0rem;
+}
+
+.carousel-container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.rightLst {
+  background-color: transparent;
+  border: none;
+}
+
+.leftLst {
+  background-color: transparent;
+  border: none;
 }
