@@ -17,87 +17,18 @@
   // background-color: red;
 }
 
-.prize-example {
-  background: linear-gradient(
-      to top left,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0) calc(50% - 0.8px),
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0) calc(50% + 0.8px),
-      rgba(255, 255, 255, 0) 100%
-    ),
-    linear-gradient(
-      to top right,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0) calc(50% - 0.8px),
-      rgba(255, 255, 255, 0) 50%,
-      rgba(255, 255, 255, 0) calc(50% + 0.8px),
-      rgba(255, 255, 255, 0) 100%
-    );
-  resize: none;
-  min-width: 5rem;
-  pointer-events: none;
+.prize-section-header {
+
+  color: var(--light-yellow);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-family: 'Sprint Sans', sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+letter-spacing: 2.13px;
+opacity: 1;
 }
-
-//CAROUSEL
-
-// .carousel-inner .active.left {
-//   left: -33%;
-// }
-// .carousel-inner .next {
-//   left: 33%;
-// }
-// .carousel-inner .prev {
-//   left: -33%;
-// }
-// .carousel-control.left,
-// .carousel-control.right {
-//   background-image: none;
-// }
-
-// .carousel-multi {
-//   .carousel-inner {
-//     > .carousel-item {
-//       transition: 500ms ease-in-out left;
-
-//       > .media-card {
-//         background: var(--blue);
-//         border-right: 10px solid #fff;
-//         display: table-cell;
-//         width: 1%;
-
-//         &:last-of-type {
-//           border-right: none;
-//         }
-//       }
-//     }
-//     .active {
-//       display: table;
-//       &.left {
-//         left: -33%;
-//       }
-//       &.right {
-//         left: 33%;
-//       }
-//     }
-//     .next {
-//       left: 33%;
-//     }
-//     .prev {
-//       left: -33%;
-//     }
-
-//     @media all and (transform-3d), (-webkit-transform-3d) {
-//       > .carousel-item {
-//         // use your favourite prefixer here
-//         transition: 700ms ease-in-out all !important;
-//         backface-visibility: visible;
-//         // transform: none !important;
-//       }
-
-//     }
-//   }
-// }
 
 .multi-carousel {
   float: left;
@@ -109,7 +40,7 @@
   position: relative;
 }
 .multi-carousel .multi-carousel-inner {
-  transition: 0.5s ease all;
+  transition: 0.5s all;
   float: left;
 }
 .multi-carousel .multi-carousel-inner .item {
@@ -129,13 +60,14 @@
 .multi-carousel .rightLst {
   position: absolute;
   border-radius: 50%;
-  top: calc(50% - 20px);
+  // top: calc(50% - 20px);
+  top: calc(50% - 110px);
 }
 .multi-carousel .leftLst {
-  left: -0.5rem;
+  left: -0.35rem;
 }
 .multi-carousel .rightLst {
-  right: -0.5rem;
+  right: -0.35rem;
 }
 
 .multi-carousel .leftLst.over,
@@ -144,10 +76,6 @@
   // background: #ccc;
 }
 
-// .multi-carousel .leftLst:hover,
-// .multi-carousel .rightLst.hover {
-//   background: #ccc;
-// }
 
 .item {
   margin: 0rem;
@@ -158,22 +86,47 @@
   padding-left: 30px;
 }
 
-.rightLst {
-  background-color: transparent;
-  border: none;
-}
-
+.rightLst,
 .leftLst {
   background-color: transparent;
   border: none;
 }
 
+.rightLst.over,
+.leftLst.over {
+  opacity: 0.2;
+}
+
+.prize-example {
+  background: linear-gradient(
+      to top left,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) calc(50% - 0.8px),
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) calc(50% + 0.8px),
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to top right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0) calc(50% - 0.8px),
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) calc(50% + 0.8px),
+      rgba(255, 255, 255, 0) 100%
+    );
+  resize: none;
+  pointer-events: none;
+  min-height: 10.75rem;
+  min-width: 8rem;
+  pointer-events: none;
+  border: 1.5px solid var(--white);
+}
 
 .prize-title {
   text-align: center;
   font: normal normal normal 38px/47px Atkinson Hyperlegible;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 
@@ -181,14 +134,27 @@
   text-align: center;
   font: normal normal normal 28px/35px Atkinson Hyperlegible;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.5;
 }
 
 .prize-year {
   text-align: center;
-  font: normal normal normal 28px/35px Atkinson Hyperlegible;
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
   letter-spacing: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.5;
+}
+
+
+
+
+///TEAM-INSIGHTS 
+
+
+
+#team-insights {
+  background-color: var(--white);
+  min-height: 120vh;
+
 }

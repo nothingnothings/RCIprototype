@@ -19,7 +19,6 @@
   --light-yellow-1: #f7f0e2;
 }
 
-
 //RESET DEFAULTS
 
 html,
@@ -37,8 +36,6 @@ html {
 main {
   padding-top: 0 !important;
 }
-
-
 
 //NAVBAR
 
@@ -151,25 +148,7 @@ main {
   bottom: -3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //REDIRECT LINK
-
-
 
 .redirect-link {
   border: 2px solid var(--white);
@@ -193,11 +172,7 @@ main {
   text-decoration: none;
 }
 
-
-
-
 // INFO SECTION
-
 
 #info {
   background-color: var(--light-yellow-1);
@@ -234,10 +209,7 @@ main {
   margin-bottom: 0;
 }
 
-
-
 .info-link {
-
   padding: 0.8rem 2.6rem;
   border: 2px solid var(--blue);
   color: var(--blue);
@@ -248,9 +220,6 @@ main {
   background-color: var(--blue);
   color: var(--white);
 }
-
-
-
 
 @media (max-width: 40rem) {
 }
