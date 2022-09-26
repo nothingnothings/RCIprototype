@@ -30,7 +30,7 @@
                 </a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="./quem-somos.html" class="nav-link m-4 nav-link-custom active">quem somos</a>
+                        <a href="./quem-somos.html" class="nav-link m-4 nav-link-custom active-class">quem somos</a>
                     </li>
                     <li class="nav-item">
                         <a href="./o-que-fazemos.html" class="nav-link m-4 nav-link-custom">o que fazemos</a>
@@ -377,120 +377,91 @@
                 </div>
             </section>
             <section id="comments">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div>
-                                <h1>Content</h1>
+                <div class="container-fluid pt-5 mt-5">
+                    <div class="row motive-row mt-5 p-5 align-items-center">
+                        <div class="col-6 d-flex justify-content-end">
+                            <div class="motive-image">
+                                <img src="./assets/images/page-objects/Grupo28.png" alt="client-image">
+                            </div>
+                        </div>
+                        <div class="col-4 d-flex flex-column align-content-between client-info-col  ml-5 mb-5 pt-5 pb-5">
+                            <div class="motive-header d-flex client-link">
+                                <div class=" text-uppercase">
+                                    O que nos move
+                                </div>
+                            </div>
+                            <div class="motive-quote">
+                                <p class="motive-quote__line">Entregamos soluções de negócios</p>
+                                <p class="motive-quote__line">orientadas por dados, direcionando</p>
+                                <p class="motive-quote__line">e acelerando mudanças positivas</p>
+                                <p class="motive-quote__line">por meio da tecnologia.</p>
+                            </div>
+                            <div class="motive-description">
+                                <div class="motive-quote-small">
+                                    <p class="motive-quote-small__line">Há mais de 30 anos trabalhamos para apoiar as pessoas a</p>
+                                    <p class="motive-quote-small__line">tomarem melhores decisões, explorando os dados que</p>
+                                    <p class="motive-quote-small__line">quiserem, onde quer que eles estejam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5 pt-5">&nbsp;</div>
+                    <div class="container-fluid mt-5 pt-5">
+                        <div class="insight-items row justify-content-center pt-5 mt-5">
+                            <div class="col-3 card-col d-flex justify-content-end">
+                                <div class="card card-comment">
+                                    <div class="card-body d-flex flex-column justify-content-around mt-5 mx-3">
+                                        <img class="comment-image" src="./assets/images/page-objects/Imagem3.png" alt="comment-1">
+                                        <p class="card-text grey-text custom-card-text   mb-5">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed."</p>
+                                        <div class="person-details d-flex flex-column justify-content-center align-items-start">
+                                            <div class="person-name">
+                                                <p class="person-name__line">Nome Sobrenome</p>
+                                            </div>
+                                            <div class="person-position">
+                                                <p class="person-position__line">Posição do comentador</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 card-col d-flex justify-content-center">
+                                <div class="card card-comment">
+                                    <div class="card-body d-flex flex-column justify-content-around mt-5 mx-3">
+                                        <img class="comment-image" src="./assets/images/page-objects/Imagem4.png" alt="comment-2">
+                                        <p class="card-text grey-text custom-card-text   mb-5">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy."</p>
+                                        <div class="person-details d-flex flex-column justify-content-center align-items-start">
+                                            <div class="person-name">
+                                                <p class="person-name__line">Nome Um</p>
+                                                <p class="person-name__line">Super Sobrenome</p>
+                                            </div>
+                                            <div class="person-position">
+                                                <p class="person-position__line">Posição do comentador</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 card-col d-flex">
+                                <div class="card card-comment">
+                                    <div class="card-body  d-flex flex-column justify-content-around mt-5 mx-3">
+                                        <img class="comment-image" src="./assets/images/page-objects/Imagem6.png" alt="comment-3">
+                                        <p class="card-text grey-text custom-card-text   mb-5">"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore."</p>
+                                        <div class="person-details d-flex flex-column justify-content-center align-items-start">
+                                            <div class="person-name">
+                                                <p class="person-name__line">Nome Superssobrenome</p>
+                                            </div>
+                                            <div class="person-position">
+                                                <p class="person-position__line">Posição do comentador</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section id="prizes" class="d-flex flex-column align-items-center justify-content-center">
-                <!-- <div id="carousel-multi" class="carousel carousel-multi slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item carousel-item">
-                            <div class="media media-card text-center text-white">
-                                <div class="placeholder-cube">
-                                    <textarea class="prize-example"></textarea>
-                                </div>
-                                <div class="prize-title">
-                                    A
-                                </div>
-                                <div class="prize-name">
-                                    Nome da Premiação
-                                </div>
-                                <div class="prize-year">
-                                    <p>2000</p>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="item carousel-item active">
-                            <div class="media media-card text-center text-white">
-                                <div class="placeholder-cube">
-                                    <textarea class="prize-example"></textarea>
-                                </div>
-                                <div class="prize-title">
-                                    B
-                                </div>
-                                <div class="prize-name">
-                                    Nome da Premiação
-                                </div>
-                                <div class="prize-year">
-                                    <p>2000</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item carousel-item">
-                            <div class="media media-card text-center text-white">
-                                <div class="placeholder-cube">
-                                    <textarea class="prize-example"></textarea>
-                                </div>
-                                <div class="prize-title">
-                                    C
-                                </div>
-                                <div class="prize-name">
-                                    Nome da Premiação
-                                </div>
-                                <div class="prize-year">
-                                    <p>2000</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item carousel-item">
-                            <div class="media media-card text-center text-white">
-                                <div class="placeholder-cube">
-                                    <textarea class="prize-example"></textarea>
-                                </div>
-                                <div class="prize-title">
-                                    D
-                                </div>
-                                <div class="prize-name">
-                                    Nome da Premiação
-                                </div>
-                                <div class="prize-year">
-                                    <p>2000</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item carousel-item">
-                            <div class="media media-card text-center text-white">
-                                <div class="placeholder-cube">
-                                    <textarea class="prize-example"></textarea>
-                                </div>
-                                <div class="prize-title">
-                                    E
-                                </div>
-                                <div class="prize-name">
-                                    Nome da Premiação
-                                </div>
-                                <div class="prize-year">
-                                    <p>2000</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a
-                        class="carousel-control-prev mr-5"
-                        href="#carousel-multi"
-                        role="button"
-                        data-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a
-                        class="carousel-control-next"
-                        href="#carousel-multi"
-                        role="button"
-                        data-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div> -->
                 <h4 class="mb-5 prize-section-header text-uppercase">Premiações</h4>
                 <div class="container-fluid carousel-container mt-4">
                     <div class="container">
@@ -595,9 +566,9 @@
                         <div class="container p-0">
                             <h6 class="info-title mb-5 pb-5">o que fazemos</h6>
                             <div class="info-description mb-5">
-                                <p class="info-description__line grey">Entenda como funcionamos, nossas entregas e</p>
-                                <p class="info-description__line grey">os resultados que conseguimos conquistar junto</p>
-                                <p class="info-description__line grey">de nossos clientes.</p>
+                                <p class="info-description__line grey-text">Entenda como funcionamos, nossas entregas e</p>
+                                <p class="info-description__line grey-text">os resultados que conseguimos conquistar junto</p>
+                                <p class="info-description__line grey-text">de nossos clientes.</p>
                             </div>
                             <div class="mt-5 pt-5">
                                 <a class="redirect-link info-link" href="./o-que-fazemos.html">Saiba mais</a>
@@ -608,13 +579,13 @@
             </section>
             <section id="team-insights" class="d-flex flex-column justify-content-around">
                 <div class="container p-0 mb-5 mt-5 pt-5">
-                    <div class="jumbotron jumbotron-fluid mt-3 pt-5">
+                    <div class="jumbotron jumbotron-fluid mt-3 pt-3">
                         <div class="container p-0">
                             <h6 class="info-title mb-5 pb-5">insights da equipe</h6>
                             <div class="info-description mb-5">
-                                <p class="info-description__line grey">Conheça nossas perspectivas sobre novas</p>
-                                <p class="info-description__line grey">tecnologias na área de inteligência de dados e</p>
-                                <p class="info-description__line grey">negócios.</p>
+                                <p class="info-description__line grey-text">Conheça nossas perspectivas sobre novas</p>
+                                <p class="info-description__line grey-text">tecnologias na área de inteligência de dados e</p>
+                                <p class="info-description__line grey-text">negócios.</p>
                             </div>
                             <div class="mt-5 pt-5">
                                 <a class="redirect-link insight-link" href="./o-que-fazemos.html">Saiba mais</a>
@@ -622,41 +593,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid mb-5 pb-5">
-                <div class="insight-items row justify-content-center pb-5">
-                        <div class="col-3 d-flex justify-content-end mr-3">
+                <div class="container-fluid mb-5 pb-2">
+                    <div class="insight-items row justify-content-center">
+                        <!-- <div class="col-3 d-flex justify-content-end mr-3"> -->
+                        <div class="col-3 card-col d-flex justify-content-end ">
                             <div class="card">
                                 <img class="card-img-top" src="./assets/images/page-objects/Retangulo9.png" alt="insight-1">
                                 <div class="card-body d-flex flex-column justify-content-around mx-4 mt-3">
-                                    <h5 class="card-title insight-title mb-2 pb-1">Título do insight um</h5>
-                                    <p class="card-text insight-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                                    <h5 class="card-title custom-card-title mb-2 pb-1">Título do insight um</h5>
+                                    <p class="card-text custom-card-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                                     <a href="#" class="insight-redirect-btn text-uppercase align-self-start mb-4 mt-3">Leia mais</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 d-flex justify-content-center">
+                        <div class="col-3 card-col d-flex justify-content-center">
                             <div class="card">
                                 <img class="card-img-top" src="./assets/images/page-objects/Retangulo10.png" alt="insight-2">
                                 <div class="card-body d-flex flex-column justify-content-around mx-4 mt-3">
-                                    <h5 class="card-title insight-title mb-2 pb-1">Título do insight dois</h5>
-                                    <p class="card-text insight-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                                    <h5 class="card-title custom-card-title mb-2 pb-1">Título do insight dois</h5>
+                                    <p class="card-text custom-card-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                                     <a href="#" class="insight-redirect-btn text-uppercase align-self-start mb-4 mt-3">Leia mais</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 ml-3">
+                        <!-- <div class="col-3 ml-3"> -->
+                        <div class="col-3 card-col d-flex">
                             <div class="card">
                                 <img class="card-img-top" src="./assets/images/page-objects/Retangulo11.png" alt="insight-3">
                                 <div class="card-body d-flex flex-column justify-content-around mx-4 mt-3">
-                                    <h5 class="card-title insight-title mb-2 pb-1">Título do insight três</h5>
-                                    <p class="card-text insight-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                                    <h5 class="card-title custom-card-title mb-2 pb-1">Título do insight três</h5>
+                                    <p class="card-text custom-card-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
                                     <a href="#" class="insight-redirect-btn text-uppercase align-self-start mb-4 mt-3">Leia mais</a>
                                 </div>
                             </div>
                         </div>
-
+                    </div>
                 </div>
-            </div>
             </section>
             <section id="contact-form">
                 <div class="container-fluid">
@@ -974,116 +946,3 @@
                 </footer>
             </body>
         </html>
-        <!-- <div class="carousel-inner">
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio1
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio2
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio3
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio2
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio3
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio4
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio3
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio4
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4 text-center">
-                                                <div class="prize-title">
-                                                    Título do Prêmio5
-                                                </div>
-                                                <div class="prize-name">
-                                                    Nome da Premiação
-                                                </div>
-                                                <div class="prize-year">
-                                                    <p>2000</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
