@@ -144,10 +144,10 @@
   // background: #ccc;
 }
 
-.multi-carousel .leftLst:hover,
-.multi-carousel .rightLst.hover {
-  background: #ccc;
-}
+// .multi-carousel .leftLst:hover,
+// .multi-carousel .rightLst.hover {
+//   background: #ccc;
+// }
 
 .item {
   margin: 0rem;
@@ -166,4 +166,29 @@
 .leftLst {
   background-color: transparent;
   border: none;
+}
+
+
+.prize-title {
+  text-align: center;
+  font: normal normal normal 38px/47px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.prize-name {
+  text-align: center;
+  font: normal normal normal 28px/35px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.prize-year {
+  text-align: center;
+  font: normal normal normal 28px/35px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.5;
 }
