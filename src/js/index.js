@@ -7,6 +7,7 @@ import '../assets/scss/common.scss';
 import '../assets/scss/form.scss';
 import '../assets/scss/footer.scss';
 import '../assets/scss/quem-somos.scss';
+import '../assets/scss/o-que-fazemos.scss';
 
 //background images
 import '../assets/images/background-images/Retangulo98.png';
@@ -25,11 +26,16 @@ import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
 import '../assets/images/page-objects/Retangulo9.png';
 import '../assets/images/page-objects/Retangulo10.png';
 import '../assets/images/page-objects/Retangulo11.png';
+import '../assets/images/page-objects/Retangulo20.png';
+import '../assets/images/page-objects/Retangulo21.png';
 import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
 import '../assets/images/page-objects/Imagem6.png';
 import '../assets/images/page-objects/Grupo32.png';
+import '../assets/images/page-objects/Grupo124.png';
+import '../assets/images/page-objects/Grupo126.png';
+import '../assets/images/page-objects/Grupo125.png';
 
 //logos
 import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';

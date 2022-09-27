@@ -200,6 +200,69 @@ main {
   bottom: -3px;
 }
 
+//CARDS
+
+.card {
+  // min-width: 24vw;
+
+  max-width: 18vw;
+  min-height: 45vh;
+  background-color: var(--white-1);
+  border: none;
+  border-bottom: 15px solid var(--blue);
+  border-radius: 0;
+}
+
+.card-col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.custom-card-title {
+  font: normal normal bold 21.33px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  color: var(--dark);
+  opacity: 1;
+}
+
+.custom-card-text {
+  color: var(--light-grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+}
+
+.card:hover {
+  transition: 0.3s ease-out;
+  box-shadow: 2px 0 15px -4px var(--light-grey),
+    -2px 0 8px -4px var(--light-grey);
+}
+
+.card:hover .card-body {
+  transition: 0.3s ease-out;
+  transform: translateY(4px);
+}
+
+.card:hover .insight-redirect-btn {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.card:hover .insight-link-custom::after {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.card:hover .insight-link-custom {
+  text-decoration: none;
+  color: var(--blue);
+}
+
 //REDIRECT LINK
 
 .redirect-link {
@@ -272,6 +335,26 @@ main {
   background-color: var(--blue);
   color: var(--white);
 }
+
+///////// INFO-SINGLE-1 SECTION
+
+#info-single-1 {
+  min-height: 70vh;
+  background-color: var(--blue);
+}
+
+.info-header {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-family: 'Sprint Sans', sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 2.13px;
+  color: var(--light-yellow);
+}
+
+///////INFO-SINGLE-2 SECTION
 
 /// general paragraph/lines
 

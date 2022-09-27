@@ -1,0 +1,35 @@
+///CASES
+
+#cases {
+  min-height: 120vh;
+  background-color: var(--white);
+}
+
+#cases-carousel {
+  min-height: 50vh;
+  background-color: var(--white);
+}
+
+#cases-partners {
+  min-height: 80vh;
+  background-color: var(--white);
+}
+
+.case-items {
+}
+
+.case-card {
+  max-width: 35vw;
+}
+
+.cases-title {
+    color: var(--blue);
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-family: 'Sprint Sans', sans-serif;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 2.13px;
+    opacity: 1;
+}

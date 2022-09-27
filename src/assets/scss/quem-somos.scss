@@ -1,40 +1,5 @@
 //GENERAL
 
-.card {
-  // min-width: 24vw;
-
-  max-width: 18vw;
-  min-height: 45vh;
-  background-color: var(--white-1);
-  border: none;
-  border-bottom: 15px solid var(--blue);
-  border-radius: 0;
-}
-
-.card-col {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.card-img,
-.card-img-top {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-}
-
-.custom-card-title {
-  font: normal normal bold 21.33px/26px Atkinson Hyperlegible;
-  letter-spacing: 0px;
-  color: var(--dark);
-  opacity: 1;
-}
-
-.custom-card-text {
-  color: var(--light-grey);
-  font: normal normal normal 21px/26px Atkinson Hyperlegible;
-  letter-spacing: 0px;
-}
-
 .grey-text {
   color: var(--grey) !important;
 }
@@ -278,30 +243,6 @@
 }
 
 
-.card:hover {
-  transition: 0.3s ease-out;
-  box-shadow: 2px 0 15px -4px var(--light-grey), -2px 0 8px -4px var(--light-grey);
-}
-
-.card:hover .card-body {
-  transition: 0.3s ease-out;
-  transform: translateY(4px);
-}
-
-.card:hover .insight-redirect-btn {
-  color: var(--blue);
-  text-decoration: none;
-}
-
-.card:hover .insight-link-custom::after {
-  opacity: 1;
-  text-decoration: none;
-}
-
-.card:hover .insight-link-custom {
-  text-decoration: none;
-  color: var(--blue);
-}
 
 
 
