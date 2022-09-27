@@ -1,7 +1,8 @@
 body {
-  box-sizing: border-box;
   margin: 0;
 }
+
+//BANNER
 
 .big-banner {
   // background: url('../images/background-images/Retangulo98.png');
@@ -50,11 +51,14 @@ body {
   margin-bottom: 0;
 }
 
+///PERKS
 
 #perks {
   min-height: 80vh;
   background-color: var(--blue);
 }
+
+///SERVICES
 
 .services-title {
   font-style: normal;
@@ -144,6 +148,9 @@ body {
   transform: translateX(9.9px);
   transition: all ease-out 0.3s;
 }
+
+
+///SERVICES AND CLIENTS
 
 #partners-and-clients {
   background-color: var(--white);
@@ -325,4 +332,3 @@ body {
 .instagram-image {
   max-width: 32vh;
 }
-

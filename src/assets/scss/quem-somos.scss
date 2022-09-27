@@ -42,7 +42,7 @@
 //COMMENTS
 
 #comments {
-  height: 400vh;
+  height: 240vh;
   background-color: var(--white);
 }
 
@@ -91,9 +91,10 @@
 }
 
 .comment-image {
- max-width: 10rem;
- position: relative;
- bottom: 12rem;
+  max-width: 10rem;
+  // position: relative;
+  // bottom: 12rem;
+  margin-bottom: 33rem;
 }
 
 .person-name {
@@ -108,6 +109,10 @@
   opacity: 1;
 }
 
+// .person-name__line {
+//   line-height: 1em;
+// }
+
 .person-name__line,
 .person-position__line {
   margin-bottom: 0;
@@ -118,6 +123,14 @@
   color: var(--grey);
 }
 
+#line-1::after {
+  content: '\a';
+  white-space: pre;
+}
+
+.no-space {
+  line-height: 1.25em;
+}
 
 //PRIZES
 
@@ -283,7 +296,12 @@
   opacity: 1;
   color: var(--blue);
 }
+
 .insight-redirect-btn:hover {
   color: var(--blue);
   text-decoration: none;
+}
+
+.comment-quote {
+
 }

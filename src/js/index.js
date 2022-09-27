@@ -29,6 +29,7 @@ import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
 import '../assets/images/page-objects/Imagem6.png';
+import '../assets/images/page-objects/Grupo32.png';
 
 //logos
 import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';
