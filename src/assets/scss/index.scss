@@ -2,54 +2,6 @@ body {
   margin: 0;
 }
 
-//BANNER
-
-.big-banner {
-  // background: url('../images/background-images/Retangulo98.png');
-  // background-repeat: no-repeat;
-  // background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-  //   url('../images/background-images/Retangulo98.png')
-  //     30% 30% / cover no-repeat border-box;
-  // height: 40.5rem;
-  // width: 100vw;
-  // height: 60vh;
-  // background-size: 100%;
-  // z-index: -100;
-}
-
-.image-wrapper {
-  position: relative;
-  width: 100%;
-}
-
-.banner-image {
-  filter: brightness(0.25);
-  width: 100%;
-}
-
-.svg-overlay {
-  position: absolute;
-  z-index: 200;
-  top: 32%;
-  left: 15.5%;
-}
-
-.company-message {
-  z-index: 201;
-  position: absolute;
-  top: 43%;
-  left: 43%;
-  font: normal normal normal 51px/63px Atkinson Hyperlegible;
-}
-
-.long {
-  top: 40.5%;
-}
-
-.company-message p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 ///PERKS
 

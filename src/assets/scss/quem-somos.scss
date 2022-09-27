@@ -205,8 +205,6 @@
 .multi-carousel {
   float: left;
   overflow: hidden;
-  // padding: 15px;
-  // background-color: green;
   background-color: var(--blue);
   width: 100%;
   position: relative;
@@ -302,6 +300,97 @@
   text-decoration: none;
 }
 
-.comment-quote {
 
+.insight-redirect-btn::after {
+
+  background-color: var(--blue) !important;
+  width: 21.4%;
+  content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0%;
+    height: 0.2em;
+    background: var(--white);
+    opacity: 0;
+    transition: opacity .3s ease 0s;
+}
+
+
+
+
+
+.insight-link-custom {
+  display: block;
+  position: relative;
+  transition-property: color;
+}
+
+.insight-link-custom:after {
+  background: none repeat scroll 0 0 transparent;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 1%;
+  width: 97%;
+  height: 0.2em;
+  background: var(--blue);
+  opacity: 0;
+  transition: opacity 0.3s ease 0s;
+}
+
+.insight-link-custom:hover::after {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.insight-link-custom:hover {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.insight-link-custom:active::after {
+  opacity: 0;
+  text-decoration: none;
+}
+
+.insight-link-custom:active {
+  text-decoration: none;
+  color: var(--blue);
+  transition-duration: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.comment-quote {
+}
+
+.comment-quote__line {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 47px;
+  font-family: Atkinson Hyperlegible, sans-serif;
+  letter-spacing: 0px;
+  color: var(--dark-1);
+  opacity: 1;
+  margin-bottom: 0;
+}
+
+.comment-overlay {
+  top: -10%;
+  left: 70%;
 }
