@@ -1,17 +1,17 @@
 ///CASES
 
 #cases {
-  min-height: 120vh;
+  min-height: 100vh;
   background-color: var(--white);
 }
 
 #cases-carousel {
-  min-height: 50vh;
+  min-height: 70vh;
   background-color: var(--white);
 }
 
 #cases-partners {
-  min-height: 80vh;
+  min-height: 175vh;
   background-color: var(--white);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .case-card {
-  max-width: 35vw;
+  max-width: 30vw;
 }
 
 .cases-title {
@@ -33,3 +33,20 @@
     letter-spacing: 2.13px;
     opacity: 1;
 }
+
+
+.card-item {
+
+
+}
+
+.case-card-carousel {
+    max-width: 30vw;
+}
+
+.cases-carousel {
+    background-color: var(--white);
+    width: 30vh;
+    min-width: 200px;
+}
+

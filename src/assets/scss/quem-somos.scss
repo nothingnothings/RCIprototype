@@ -175,7 +175,7 @@
 .multi-carousel .multi-carousel-inner .item {
   float: left;
 }
-.multi-carousel .multi-carousel-inner .item > div {
+.multi-carousel .multi-carousel-inner .item > .custom-item {
   text-align: center;
   background-color: var(--blue);
   color: #666;

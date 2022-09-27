@@ -26,8 +26,12 @@ import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
 import '../assets/images/page-objects/Retangulo9.png';
 import '../assets/images/page-objects/Retangulo10.png';
 import '../assets/images/page-objects/Retangulo11.png';
+import '../assets/images/page-objects/Retangulo14.png';
+import '../assets/images/page-objects/Retangulo15.png';
 import '../assets/images/page-objects/Retangulo20.png';
 import '../assets/images/page-objects/Retangulo21.png';
+import '../assets/images/page-objects/Retangulo31.png';
+import '../assets/images/page-objects/Retangulo32.png';
 import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
@@ -212,4 +216,31 @@ $(document).ready(function () {
     console.log(ell, Parent, slide);
     ResCarousel(ell, Parent, slide);
   }
+});
+
+$(document).ready(function () {
+  // Add smooth scrolling to all links
+  $('a').on('click', function (event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== '') {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top,
+        },
+        800,
+        function () {
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        }
+      );
+    } // End if
+  });
 });
