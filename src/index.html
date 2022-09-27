@@ -18,7 +18,6 @@ var request = new XMLHttpRequest();
 request.open('GET', 'https://api.instagram.com/v1/users/self/media/recent/?access_token=ENTER-YOUR-ACCESS-TOKEN-HERE&count=8', true);
 request.onload = function(container) {
     if (request.status >= 200 && request.status < 400) {
-        // Success!
         var data = JSON.parse(request.responseText);
         for (var i=0;i < data.data.length;i++) {
             var container = document.getElementById('insta-feed');
@@ -38,8 +37,6 @@ request.onerror = function() {
  
 };
 request.send();
-
-
         </script>
     </head>
     <body>
