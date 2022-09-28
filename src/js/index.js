@@ -70,7 +70,6 @@ $('#carousel-multi').carousel({
   interval: false,
 });
 
-
 $(document).ready(function () {
   var itemsMainDiv = '.multi-carousel';
   var itemsDiv = '.multi-carousel-inner';
@@ -176,69 +175,51 @@ $(document).ready(function () {
   }
 });
 
-
-
-
-
-
-
 ////smooth scroll
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $('a').on('click', function (event) {
+    if ($(this).hasClass('nav-link')) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== '') {
+        // Store hash
+        var hash = this.hash;
 
-
-    if (this.find('.carousel-control-next' || '.carousel-control-prev')) {
-      return; 
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate(
+          {
+            scrollTop: $(hash).offset().top,
+          },
+          800,
+          function () {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          }
+        );
+      }
     }
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== '') {
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top,
-        },
-        800,
-        function () {
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        }
-      );
-    } // End if
   });
 });
 
-
-
-
-
-
 ///2nd carousel
 
-
-
-$('#myCarousel').carousel({
-}).on('slid.bs.carousel', function (par1, par2) {
-
-  console.log('EVENT', par1, par2);
+$('#myCarousel')
+  .carousel({})
+  .on('slid.bs.carousel', function (par1, par2) {
+    console.log('EVENT', par1, par2);
     currentSlide = $('.active');
     console.log(currentSlide);
-  if(currentSlide.is( ':first-child' )) {
+    if (currentSlide.is(':first-child')) {
       $('.carousel-control-prev').css('pointer-events', 'none');
-     return;
-  } else {
-      $('.carousel-control-prev').css('pointer-events', 'auto');    
-  }
-  if (currentSlide.is( ':last-child' )) {
+      return;
+    } else {
+      $('.carousel-control-prev').css('pointer-events', 'auto');
+    }
+    if (currentSlide.is(':last-child')) {
       $('.carousel-control-next').css('pointer-events', 'none');
-     return;
-  } else {
-      $('.carousel-control-next').css('pointer-events', 'auto');  
-  }
-});
+      return;
+    } else {
+      $('.carousel-control-next').css('pointer-events', 'auto');
+    }
+  });
