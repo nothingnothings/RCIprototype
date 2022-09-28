@@ -92,8 +92,6 @@
 
 .comment-image {
   max-width: 10rem;
-  // position: relative;
-  // bottom: 12rem;
   margin-bottom: 33rem;
 }
 
@@ -108,10 +106,6 @@
   color: var(--blue);
   opacity: 1;
 }
-
-// .person-name__line {
-//   line-height: 1em;
-// }
 
 .person-name__line,
 .person-position__line {
@@ -283,6 +277,34 @@
   margin-bottom: 7rem;
 }
 
+
+.card:hover {
+  transition: 0.3s ease-out;
+  box-shadow: 2px 0 15px -4px var(--light-grey), -2px 0 8px -4px var(--light-grey);
+}
+
+.card:hover .card-body {
+  transition: 0.3s ease-out;
+  transform: translateY(4px);
+}
+
+.card:hover .insight-redirect-btn {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.card:hover .insight-link-custom::after {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.card:hover .insight-link-custom {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+
+
 .insight-redirect-btn {
   font-style: normal;
   font-variant: normal;
@@ -295,31 +317,25 @@
   color: var(--blue);
 }
 
-.insight-redirect-btn:hover {
-  color: var(--blue);
-  text-decoration: none;
-}
-
+// .insight-redirect-btn:hover {
+//   color: var(--blue);
+//   text-decoration: none;
+// }
 
 .insight-redirect-btn::after {
-
   background-color: var(--blue) !important;
   width: 21.4%;
-  content: "";
-    display: block;
-    position: absolute;
-    top: 100%;
-    bottom: 0;
-    left: 0%;
-    height: 0.2em;
-    background: var(--white);
-    opacity: 0;
-    transition: opacity .3s ease 0s;
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0%;
+  height: 0.2em;
+  background: var(--white);
+  opacity: 0;
+  transition: opacity 0.3s ease 0s;
 }
-
-
-
-
 
 .insight-link-custom {
   display: block;
@@ -362,17 +378,6 @@
   color: var(--blue);
   transition-duration: 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .comment-quote {
 }
