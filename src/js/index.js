@@ -194,10 +194,6 @@ $(document).ready(function () {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== '') {
-      // Prevent default anchor click behavior
-
-
-      // event.preventDefault();
 
       // Store hash
       var hash = this.hash;
@@ -227,9 +223,12 @@ $(document).ready(function () {
 
 
 
-$('.carousel').carousel({
-}).on('slid.bs.carousel', function () {
+$('#myCarousel').carousel({
+}).on('slid.bs.carousel', function (par1, par2) {
+
+  console.log('EVENT', par1, par2);
     currentSlide = $('.active');
+    console.log(currentSlide);
   if(currentSlide.is( ':first-child' )) {
       $('.carousel-control-prev').css('pointer-events', 'none');
      return;
