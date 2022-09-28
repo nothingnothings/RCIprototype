@@ -70,46 +70,13 @@ $('#carousel-multi').carousel({
   interval: false,
 });
 
-// $('.carousel.carousel-multi .item').each(function (index, object) {
-
-//     console.log('TEST', index, object);
-//   var next = $(this).next();
-//   if (!next.length) {
-//     next = $(this).siblings(':first');
-//   }
-//   next
-//     .children(':first-child')
-//     .clone()
-//     .attr('aria-hidden', 'true')
-//     .appendTo($(this));
-
-//   if (next.next().length > 0) {
-//     next
-//       .next()
-//       .children(':first-child')
-//       .clone()
-//       .attr('aria-hidden', 'true')
-//       .appendTo($(this));
-//   } else {
-//     $(this)
-//       .siblings(':first')
-//       .children(':first-child')
-//       .clone()
-//       .appendTo($(this));
-//   }
-// });
 
 $(document).ready(function () {
-  // var itemsMainDiv = ('.carousel-container'); ///experimental
-  //   var itemsMainDiv = ('.multi-carousel');
-  //   var itemsDiv = ('.multi-carousel-inner');
   var itemsMainDiv = '.multi-carousel';
   var itemsDiv = '.multi-carousel-inner';
   var itemWidth = '';
 
-  //   $('#btn-left-carousel, #btn-right-carousel').click(function () {
   $('.leftLst, .rightLst').click(function () {
-    // var condition = $(this).is('#btn-left-carousel');
     var condition = $(this).hasClass('leftLst');
     if (condition) click(0, this);
     else click(1, this);
@@ -121,7 +88,7 @@ $(document).ready(function () {
     ResCarouselSize();
   });
 
-  //this function define the size of the items
+  //this function defines the size of the items
   function ResCarouselSize() {
     var incno = 0;
     var dataItems = 'data-items';
@@ -136,7 +103,6 @@ $(document).ready(function () {
       var itemNumbers = $(this).find(itemClass).length;
       btnParentSb = $(this).parent().attr(dataItems);
       itemsSplit = btnParentSb.split(',');
-      //   $(this).parent().attr("id", "multi-carousel" + id);
       $(this)
         .parent()
         .attr('id', 'multi-carousel' + id);
@@ -166,21 +132,16 @@ $(document).ready(function () {
 
       $('.leftLst').addClass('over');
       $('.rightLst').removeClass('over');
-      // $("#btn-left-carousel").addClass("over");
-      // $("#btn-right-carousel").removeClass("over");
     });
   }
 
-  //this function used to move the items
+  //this function moves the items
 
   function ResCarousel(e, el, s) {
     var leftBtn = '.leftLst';
     var rightBtn = '.rightLst';
-    // var leftBtn = ('#btn-left-carousel');
-    // var rightBtn = ('#btn-right-carousel');
     var translateXval = '';
     var divStyle = $(el + ' ' + itemsDiv).css('transform');
-    console.log(divStyle, 'DIVSTYLE');
     var values = divStyle.match(/-?[\d\.]+/g);
     var xds = Math.abs(values[4]);
     if (e == 0) {
@@ -209,18 +170,28 @@ $(document).ready(function () {
 
   //It is used to get some elements from btn
   function click(ell, ee) {
-    console.log(ell, ee, 'LINE', $(ee).parent());
     var Parent = '#' + $(ee).parent().attr('id');
-    console.log(Parent, 'Parent');
     var slide = $(Parent).attr('data-slide');
-    console.log(ell, Parent, slide);
     ResCarousel(ell, Parent, slide);
   }
 });
 
+
+
+
+
+
+
+////smooth scroll
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $('a').on('click', function (event) {
+
+
+    if (this.find('.carousel-control-next' || '.carousel-control-prev')) {
+      return; 
+    }
+
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== '') {
       // Prevent default anchor click behavior
@@ -245,4 +216,30 @@ $(document).ready(function () {
       );
     } // End if
   });
+});
+
+
+
+
+
+
+///2nd carousel
+
+
+
+$('.carousel').carousel({
+}).on('slid.bs.carousel', function () {
+    currentSlide = $('.active');
+  if(currentSlide.is( ':first-child' )) {
+      $('.carousel-control-prev').css('pointer-events', 'none');
+     return;
+  } else {
+      $('.carousel-control-prev').css('pointer-events', 'auto');    
+  }
+  if (currentSlide.is( ':last-child' )) {
+      $('.carousel-control-next').css('pointer-events', 'none');
+     return;
+  } else {
+      $('.carousel-control-next').css('pointer-events', 'auto');  
+  }
 });
