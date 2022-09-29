@@ -33,6 +33,7 @@ import '../assets/images/page-objects/Retangulo20.png';
 import '../assets/images/page-objects/Retangulo21.png';
 import '../assets/images/page-objects/Retangulo31.png';
 import '../assets/images/page-objects/Retangulo32.png';
+import '../assets/images/page-objects/Retangulo51.png';
 import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';

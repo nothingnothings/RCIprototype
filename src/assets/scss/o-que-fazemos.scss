@@ -6,16 +6,13 @@
 }
 
 #cases-carousel {
-  min-height: 70vh;
+  min-height: 100vh;
   background-color: var(--white);
 }
 
 #cases-partners {
   min-height: 175vh;
   background-color: var(--white);
-}
-
-.case-items {
 }
 
 .case-card {
@@ -37,6 +34,12 @@
 .carousel .carousel-item {
   overflow: hidden;
 }
+
+.carousel-item{
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease,-webkit-transform .6s ease;
+} 
 
 .case-card-carousel {
   min-width: 680px;
@@ -96,66 +99,66 @@
 }
 
 .carousel-control-next {
-  margin-right: 16rem;
+  margin-right: -8rem;
 }
 
 .carousel-control-prev {
-  margin-left: 16rem;
+  margin-left: -8rem;
 }
 
-@media (max-width: 2000px) {
-  .carousel-control-next {
-    margin-right: 8rem;
-  }
+// @media (max-width: 2000px) {
+//   .carousel-control-next {
+//     // margin-right: -16rem;
+//   }
 
-  .carousel-control-prev {
-    margin-left: 8rem;
-  }
+//   .carousel-control-prev {
+//     // margin-left: -16rem;
+//   }
 
-  .case-card-carousel {
-    min-width: 560px;
-  }
-}
+//   .case-card-carousel {
+//     min-width: 560px;
+//   }
+// }
 
-@media (max-width: 1850px) {
-  .carousel-control-next {
-    margin-right: 6rem;
-  }
+// @media (max-width: 1850px) {
+//   .carousel-control-next {
+//     // margin-right: -10rem;
+//   }
 
-  .carousel-control-prev {
-    margin-left: 6rem;
-  }
-}
+//   .carousel-control-prev {
+//     // margin-left: -10rem;
+//   }
+// }
 
-@media (max-width: 1800px) {
-  .carousel-control-next {
-    margin-right: 4rem;
-  }
+// @media (max-width: 1800px) {
+//   .carousel-control-next {
+//     // margin-right: -12rem;
+//   }
 
-  .carousel-control-prev {
-    margin-left: 4rem;
-  }
-}
+//   .carousel-control-prev {
+//     // margin-left: -12rem;
+//   }
+// }
 
-@media (max-width: 1750px) {
-  .carousel-control-next {
-    margin-right: 3rem;
-  }
+// @media (max-width: 1750px) {
+//   .carousel-control-next {
+//     // margin-right: 3rem;
+//   }
 
-  .carousel-control-prev {
-    margin-left: 3rem;
-  }
-}
+//   .carousel-control-prev {
+//     // margin-left: 3rem;
+//   }
+// }
 
-@media (max-width: 1750px) {
-  .carousel-control-next {
-    margin-right: 2rem;
-  }
+// @media (max-width: 1750px) {
+//   .carousel-control-next {
+//     // margin-right: 2rem;
+//   }
 
-  .carousel-control-prev {
-    margin-left: 2rem;
-  }
-}
+//   .carousel-control-prev {
+//     // margin-left: 2rem;
+//   }
+// }
 
 @media (max-width: 1700px) {
   .case-card-carousel {
