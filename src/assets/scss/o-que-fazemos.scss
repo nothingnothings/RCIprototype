@@ -60,6 +60,17 @@
   padding: 15px;
   font-size: 13px;
 }
+
+.prev-custom,
+.next-custom {
+  opacity: 1;
+}
+
+.inactive-control {
+  opacity: 0.2 !important;
+  pointer-events: none !important;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
   height: 44px;
@@ -68,21 +79,20 @@
   margin: auto 0;
 }
 
-
-.carousel-control-prev-svg,
-.carousel-control-next-svg {
-	fill: "#06285B";
-	opacity: 0.2;
-	stroke: "#06285B";
-	stroke-width: 2rem;
-
+.carousel-control-prev:focus {
+  color: #06285b;
 }
 
-.carousel-control-prev {
+.carousel-control-next:focus {
+  color: #06285b;
 }
 
-.carousel-control-prev:hover {
-
+.carousel-control-prev-svg path,
+.carousel-control-next-svg path {
+  fill: #06285b;
+  opacity: 1;
+  stroke: #06285b;
+  stroke-width: 0.2rem;
 }
 
 .carousel-control-next {

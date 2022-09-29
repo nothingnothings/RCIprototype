@@ -205,22 +205,22 @@ $(document).ready(function () {
 
 ///2nd carousel
 
-$('#myCarousel')
+$('#cases-carousel .carousel-wrapper .carousel')
   .carousel({})
   .on('slid.bs.carousel', function (par1, par2) {
-    console.log('EVENT', par1, par2);
-    currentSlide = $('.active');
+    console.log('EVENT', par1, 'example', par2);
+    var currentSlide = $('.active');
     console.log(currentSlide);
     if (currentSlide.is(':first-child')) {
-      $('.carousel-control-prev').css('pointer-events', 'none');
+      $('.carousel-control-prev').css('pointer-events', 'none').addClass('inactive-control');
       return;
     } else {
-      $('.carousel-control-prev').css('pointer-events', 'auto');
+      $('.carousel-control-prev').css('pointer-events', 'auto').removeClass('inactive-control');
     }
     if (currentSlide.is(':last-child')) {
-      $('.carousel-control-next').css('pointer-events', 'none');
+      $('.carousel-control-next').css('pointer-events', 'none').addClass('inactive-control');
       return;
     } else {
-      $('.carousel-control-next').css('pointer-events', 'auto');
+      $('.carousel-control-next').css('pointer-events', 'auto').removeClass('inactive-control');
     }
   });
