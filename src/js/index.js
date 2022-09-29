@@ -42,6 +42,13 @@ import '../assets/images/page-objects/Grupo32.png';
 import '../assets/images/page-objects/Grupo124.png';
 import '../assets/images/page-objects/Grupo126.png';
 import '../assets/images/page-objects/Grupo125.png';
+import '../assets/images/page-objects/video-1.png';
+import '../assets/images/page-objects/video-2.png';
+import '../assets/images/page-objects/video-3.png';
+import '../assets/images/page-objects/video-4.png';
+import '../assets/images/page-objects/video-5.png';
+import '../assets/images/page-objects/video-6.png';
+import '../assets/images/page-objects/video-7.png';
 
 //logos
 import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';
