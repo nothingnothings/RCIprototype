@@ -58,6 +58,18 @@ module.exports = {
       filename: 'RCInsights.html',
       template: 'src/RCInsights.html',
     }),
+    new HtmlWebpackPlugin({
+      filename: 'artigo.html',
+      template: 'src/artigo.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'insight.html',
+      template: 'src/insight.html',
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'case.html',
+      template: 'src/case.html',
+    }),
     new CleanWebpackPlugin(),
   ],
 

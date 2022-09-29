@@ -5,6 +5,20 @@
   background-color: var(--blue);
 }
 
+.insight-highlight-small-header h5 {
+  color: var(--light-yellow);
+  text-align: left;
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+}
+
+.insight-highlight-big-title h1 {
+  text-align: left;
+  font: normal normal normal 51px/60px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
 .insight-highlight__line {
   font-style: normal;
   font-weight: normal;
@@ -14,13 +28,6 @@
   font-family: Atkinson Hyperlegible;
   letter-spacing: 0;
   margin-bottom: 0;
-  opacity: 1;
-}
-
-.insight-highlight-big-title h1 {
-  text-align: left;
-  font: normal normal normal 51px/60px Atkinson Hyperlegible;
-  letter-spacing: 0px;
   opacity: 1;
 }
 
@@ -80,8 +87,6 @@
 }
 
 ////cases-carousel - CUSTOM (case-card-carousel-video)
-
-
 
 .case-card-carousel-video {
   min-width: 300px;
