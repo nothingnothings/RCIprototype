@@ -90,4 +90,12 @@
 
 .case-card-carousel-video {
   min-width: 300px;
+  min-height: 36vh !important;
+  max-height: 39vh;
+}
+
+
+
+.card-img-limiter {
+    height: 13rem;
 }
