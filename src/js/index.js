@@ -31,6 +31,7 @@ import '../assets/images/page-objects/Grupo83.png';
 import '../assets/images/page-objects/Grupo84.png';
 import '../assets/images/page-objects/Grupo85.png';
 import '../assets/images/page-objects/Grupo28.png';
+import '../assets/images/page-objects/Grupo2.jpg';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_04.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_07.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
@@ -44,6 +45,7 @@ import '../assets/images/page-objects/Retangulo21.png';
 import '../assets/images/page-objects/Retangulo31.png';
 import '../assets/images/page-objects/Retangulo32.png';
 import '../assets/images/page-objects/Retangulo51.png';
+import '../assets/images/page-objects/Retangulo143.jpg';
 
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
@@ -226,15 +228,23 @@ $('#cases-carousel .carousel-wrapper .carousel')
     var currentSlide = $('.active');
     console.log(currentSlide);
     if (currentSlide.is(':first-child')) {
-      $('.carousel-control-prev').css('pointer-events', 'none').addClass('inactive-control');
+      $('.carousel-control-prev')
+        .css('pointer-events', 'none')
+        .addClass('inactive-control');
       return;
     } else {
-      $('.carousel-control-prev').css('pointer-events', 'auto').removeClass('inactive-control');
+      $('.carousel-control-prev')
+        .css('pointer-events', 'auto')
+        .removeClass('inactive-control');
     }
     if (currentSlide.is(':last-child')) {
-      $('.carousel-control-next').css('pointer-events', 'none').addClass('inactive-control');
+      $('.carousel-control-next')
+        .css('pointer-events', 'none')
+        .addClass('inactive-control');
       return;
     } else {
-      $('.carousel-control-next').css('pointer-events', 'auto').removeClass('inactive-control');
+      $('.carousel-control-next')
+        .css('pointer-events', 'auto')
+        .removeClass('inactive-control');
     }
   });

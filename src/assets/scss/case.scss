@@ -50,7 +50,7 @@
 
 ////////////  EXPOSITION-TEXT
 
-#exposition-text {
+#exposition-text, #exposition-text-2 {
   height: 80vh;
 }
 
@@ -100,16 +100,3 @@
 
 
  
-///PORTRAIT-TEXT  
-
-
-#portrait-text {
-    min-height: 80vh;
-}
-
-
-.portrait-img {
-    max-width: 80%;
-    max-height: 90vh;
-    border: 1px solid var(--grey);
-}
