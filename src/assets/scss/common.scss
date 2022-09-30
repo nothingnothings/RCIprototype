@@ -65,31 +65,21 @@ main {
 
 .blue-img {
   width: 100%;
-  filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%) url(#svgTint)
-}
-
-.myfilter {
-  position: relative;
-}
-
-.myfilter:after {
-  position: absolute;
-  content: '';
-  display: block;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-
-  background: rgb(6, 40, 91);
-
-  mix-blend-mode: multiply;
+  filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
+    url(#svgTint);
 }
 
 .svg-overlay {
   position: absolute;
   z-index: 200;
   top: 32%;
+  left: 15.5%;
+}
+
+.svg-overlay-2 {
+  position: absolute;
+  z-index: 200;
+  top: 28.5%;
   left: 15.5%;
 }
 
