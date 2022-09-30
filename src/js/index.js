@@ -10,6 +10,7 @@ import '../assets/scss/quem-somos.scss';
 import '../assets/scss/o-que-fazemos.scss';
 import '../assets/scss/RCInsights.scss';
 import '../assets/scss/insight.scss';
+import '../assets/scss/case.scss';
 
 //background images
 import '../assets/images/background-images/Retangulo98.png';
