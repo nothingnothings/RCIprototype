@@ -12,7 +12,7 @@ import '../assets/scss/RCInsights.scss';
 import '../assets/scss/insight.scss';
 import '../assets/scss/case.scss';
 
-//background images
+//background/banner images
 import '../assets/images/background-images/Retangulo98.png';
 import '../assets/images/background-images/Retangulo99.png';
 import '../assets/images/background-images/Retangulo100.png';
@@ -23,6 +23,14 @@ import '../assets/images/page-objects/Grupo117.png';
 import '../assets/images/page-objects/Grupo113.png';
 import '../assets/images/page-objects/Grupo109.png';
 import '../assets/images/page-objects/Grupo14.png';
+import '../assets/images/page-objects/Grupo32.png';
+import '../assets/images/page-objects/Grupo124.png';
+import '../assets/images/page-objects/Grupo126.png';
+import '../assets/images/page-objects/Grupo125.png';
+import '../assets/images/page-objects/Grupo83.png';
+import '../assets/images/page-objects/Grupo84.png';
+import '../assets/images/page-objects/Grupo85.png';
+import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_04.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_07.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
@@ -36,14 +44,10 @@ import '../assets/images/page-objects/Retangulo21.png';
 import '../assets/images/page-objects/Retangulo31.png';
 import '../assets/images/page-objects/Retangulo32.png';
 import '../assets/images/page-objects/Retangulo51.png';
-import '../assets/images/page-objects/Grupo28.png';
+
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
 import '../assets/images/page-objects/Imagem6.png';
-import '../assets/images/page-objects/Grupo32.png';
-import '../assets/images/page-objects/Grupo124.png';
-import '../assets/images/page-objects/Grupo126.png';
-import '../assets/images/page-objects/Grupo125.png';
 import '../assets/images/page-objects/video-1.png';
 import '../assets/images/page-objects/video-2.png';
 import '../assets/images/page-objects/video-3.png';
