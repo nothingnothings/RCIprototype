@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-
 // the higher the number, the further the color is from its original hue (be it dark or light)
 :root {
   --dark: #000000;
@@ -62,6 +61,29 @@ main {
 .banner-image {
   filter: brightness(0.25);
   width: 100%;
+}
+
+.blue-img {
+  width: 100%;
+  filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%) url(#svgTint)
+}
+
+.myfilter {
+  position: relative;
+}
+
+.myfilter:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background: rgb(6, 40, 91);
+
+  mix-blend-mode: multiply;
 }
 
 .svg-overlay {
@@ -145,9 +167,6 @@ main {
 .svg-link:hover {
   color: transparent;
 }
-
-
-
 
 .active-class {
   color: var(--blue);
@@ -365,26 +384,8 @@ main {
 @media (max-width: 40rem) {
 }
 
-
-
-
-
-
-
-
-
 //images
-
-
 
 .client-image {
   display: inline-block;
 }
-
-
-
-
-
-
-
-
