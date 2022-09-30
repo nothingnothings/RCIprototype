@@ -46,6 +46,9 @@ import '../assets/images/page-objects/Retangulo31.png';
 import '../assets/images/page-objects/Retangulo32.png';
 import '../assets/images/page-objects/Retangulo51.png';
 import '../assets/images/page-objects/Retangulo143.jpg';
+import '../assets/images/page-objects/Retangulo90.png';
+import '../assets/images/page-objects/Retangulo91.png';
+import '../assets/images/page-objects/Retangulo92.png';
 
 import '../assets/images/page-objects/Imagem3.png';
 import '../assets/images/page-objects/Imagem4.png';
