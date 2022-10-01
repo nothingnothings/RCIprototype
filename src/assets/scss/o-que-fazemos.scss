@@ -1,7 +1,7 @@
 ///CASES
 
 #cases {
-  min-height: 100vh;
+  min-height: 85vh;
   background-color: var(--white);
 }
 
@@ -15,8 +15,17 @@
   background-color: var(--white);
 }
 
-.case-card {
-  max-width: 30vw;
+
+
+// .case-card {
+//   max-width: 30vw;
+// }
+
+
+@media(min-width: 1200px) {
+  .case-container {
+    max-width: 1180px;
+  }
 }
 
 .cases-title {
