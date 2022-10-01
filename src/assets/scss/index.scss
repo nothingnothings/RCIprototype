@@ -266,26 +266,3 @@ body {
   padding: 0.6rem 3.4rem;
 }
 
-
-//INSTAGRAM CARDS
-
-#instagram-cards {
-  min-height: 80vh;
-  background-color: var(--white);
-}
-
-.instagram-title {
-  font-style: normal;
-  color: var(--blue);
-  font-variant: normal;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 30px;
-  font-family: 'Sprint Sans', sans-serif;
-  letter-spacing: 1px;
-  opacity: 1;
-}
-
-.instagram-image {
-  max-width: 32vh;
-}

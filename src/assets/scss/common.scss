@@ -218,8 +218,8 @@ main {
 .card {
   // min-width: 24vw;
 
-  max-width: 18vw;
-  min-height: 45vh;
+  // max-width: 20vw;
+  // min-height: 45vh;
   background-color: var(--white-1);
   border: none;
   border-bottom: 15px solid var(--blue);
@@ -238,7 +238,7 @@ main {
 }
 
 .custom-card-title {
-  font: normal normal bold 21.33px/26px Atkinson Hyperlegible;
+  font: normal normal normal 21.33px/26px Atkinson Hyperlegible;
   letter-spacing: 0px;
   color: var(--dark);
   opacity: 1;
@@ -405,7 +405,8 @@ main {
 
 ///PORTRAIT-TEXT
 
-#portrait-text, #portrait-text-2 {
+#portrait-text,
+#portrait-text-2 {
   min-height: 80vh;
 }
 
@@ -420,3 +421,52 @@ main {
   min-width: 70%;
   border: 1px solid var(--grey);
 }
+
+////INSTAGRAM CARDS
+
+#instagram-cards {
+  min-height: 80vh;
+  background-color: var(--white);
+}
+
+.instagram-title {
+  font-style: normal;
+  color: var(--blue);
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  font-family: 'Sprint Sans', sans-serif;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+.instagram-image {
+  max-width: 32vh;
+}
+
+@media (min-width: 1200px) {
+  .instagram-container {
+    max-width: 1180px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .instagram-container {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .instagram-container {
+    max-width: 760px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .instagram-row {
+   margin-left: -30px;
+  }
+}
+
