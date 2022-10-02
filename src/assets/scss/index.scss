@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-
 ///PERKS
 
 #perks {
@@ -100,7 +99,6 @@ body {
   transform: translateX(9.9px);
   transition: all ease-out 0.3s;
 }
-
 
 ///PARTNERS AND CLIENTS
 
@@ -266,3 +264,8 @@ body {
   padding: 0.6rem 3.4rem;
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+  .special-margin {
+    margin-top: 1.8rem !important;
+  }
+}
