@@ -62,13 +62,38 @@ main {
   width: 100%;
 }
 
-.imgBackground {
+.imgBackground-1 {
   background-image: url('../images/background-images/Retangulo98.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
   filter: brightness(0.25);
 }
+
+.imgBackground-2 {
+  background-image: url("../images/background-images/Retangulo99.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  filter: brightness(0.25);
+}
+
+.imgBackground-3 {
+  background-image: url("../images/background-images/Retangulo100.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  filter: brightness(0.25);
+}
+
+.imgBackground-4 {
+  background-image: url("../images/background-images/Retangulo101.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  filter: brightness(0.25);
+}
+
 
 .blue-img {
   width: 100%;
