@@ -103,8 +103,6 @@ body {
   }
 }
 
-
-
 @media (min-width: 555px) and (max-width: 564px) {
   .service-link:after {
     width: 60%;
@@ -129,7 +127,6 @@ body {
   }
 }
 
-
 @media (min-width: 515px) and (max-width: 529px) {
   .service-link:after {
     width: 68%;
@@ -142,7 +139,6 @@ body {
   }
 }
 
-
 @media (min-width: 476px) and (max-width: 504px) {
   .service-link:after {
     width: 72.5%;
@@ -154,7 +150,6 @@ body {
     width: 74.5%;
   }
 }
-
 
 .service-link:hover {
   text-decoration: none;
@@ -176,6 +171,12 @@ body {
 #partners-and-clients {
   background-color: var(--white);
   min-height: 170vh;
+}
+
+@media(min-width: 769px) and (max-width: 992px) {
+  #partners-and-clients {
+    min-height: 150vh;
+  }
 }
 
 .partners-clients-header {
@@ -205,6 +206,25 @@ body {
   color: var(--dark);
   opacity: 1;
   margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .client-image img {
+    height: 21rem;
+  }
+}
+
+@media (max-width: 982px) {
+  .client-quote__line {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .client-name,
+  .client-company {
+    font-size: 18px !important;
+    line-height: 22.5px !important;
+  }
 }
 
 .client-name {
@@ -239,21 +259,148 @@ body {
   color: var(--blue) !important;
 }
 
-.client-arrow-line {
-  background-color: var(--blue) !important;
-}
-
-.client-arrow {
-  background-color: var(--blue) !important;
-}
-
-.client-arrow::before {
-  background-color: var(--blue) !important;
-}
-
+.client-arrow-line,
+.client-arrow,
+.client-arrow::before,
 .client-arrow::after {
   background-color: var(--blue) !important;
 }
+
+
+
+
+
+@media(min-width: 1913px) and (max-width: 1950px) {
+  .client-link:after {
+    width: 25.5%;
+  }
+}
+
+
+
+@media(min-width: 1900px) and (max-width: 1912px) {
+  .client-link:after {
+    width: 26%;
+  }
+}
+
+@media(min-width: 1891px) and (max-width: 1899px) {
+  .client-link:after {
+    width: 26.5%;
+  }
+}
+
+@media(min-width: 1881px) and (max-width: 1890px) {
+  .client-link:after {
+    width: 26.8%;
+  }
+}
+
+@media(min-width: 1871px) and (max-width: 1880px) {
+  .client-link:after {
+    width: 27.6%;
+  }
+}
+
+@media(min-width: 1861px) and (max-width: 1870px) {
+  .client-link:after {
+    width: 27.8%;
+  }
+}
+
+@media(min-width: 1851px) and (max-width: 1869px) {
+  .client-link:after {
+    width: 29%;
+  }
+}
+
+
+
+@media(min-width: 1841px) and (max-width: 1850px) {
+  .client-link:after {
+    width: 29.8%;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .client-link:after {
+    width: 48%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .client-link:after {
+    width: 43%;
+  }
+}
+
+@media (min-width: 565px) and (max-width: 575px) {
+  .client-link:after {
+    width: 58%;
+  }
+}
+
+@media (min-width: 555px) and (max-width: 564px) {
+  .client-link:after {
+    width: 60%;
+  }
+}
+
+@media (min-width: 545px) and (max-width: 554px) {
+  .client-link:after {
+    width: 62%;
+  }
+}
+
+@media (min-width: 535px) and (max-width: 549px) {
+  .client-link:after {
+    width: 64%;
+  }
+}
+
+@media (min-width: 525px) and (max-width: 539px) {
+  .client-link:after {
+    width: 66%;
+  }
+}
+
+@media (min-width: 515px) and (max-width: 529px) {
+  .client-link:after {
+    width: 68%;
+  }
+}
+
+@media (min-width: 505px) and (max-width: 519px) {
+  .client-link:after {
+    width: 68.5%;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 504px) {
+  .client-link:after {
+    width: 72.5%;
+  }
+}
+
+@media (min-width: 406px) and (max-width: 475px) {
+  .client-link:after {
+    width: 74.5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .circles {
   gap: 1.5rem;
@@ -317,23 +464,12 @@ body {
   margin-bottom: 0;
 }
 
-@media(max-width: 745px) {
-
+@media (max-width: 745px) {
   .call-to-action-message__line {
     font-size: 28px;
     line-height: 35px;
   }
 }
-
-// @media(max-width: 580px) {
-
-//   .call-to-action-message__line {
-//     font-size: 21px;
-//     line-height: 26px;
-//   }
-// }
-
-
 
 .career-link {
   border: 2px solid var(--white);
@@ -352,12 +488,6 @@ body {
 .internships {
   padding: 0.6rem 3.4rem;
 }
-
-// @media (min-width: 992px) and (max-width: 1200px) {
-//   .special-margin {
-//     margin-top: 1.8rem !important;
-//   }
-// }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .optional {

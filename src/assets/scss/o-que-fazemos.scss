@@ -15,14 +15,7 @@
   background-color: var(--white);
 }
 
-
-
-// .case-card {
-//   max-width: 30vw;
-// }
-
-
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .case-container {
     max-width: 1180px;
   }
@@ -44,11 +37,11 @@
   overflow: hidden;
 }
 
-.carousel-item{
-  transition: -webkit-transform .6s ease;
-  transition: transform .6s ease;
-  transition: transform .6s ease,-webkit-transform .6s ease;
-} 
+.carousel-item {
+  transition: -webkit-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
 
 .case-card-carousel {
   min-width: 680px;
