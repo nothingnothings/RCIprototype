@@ -48,15 +48,19 @@
   opacity: 1;
 }
 
-@media (max-width: 1583px) {
+@media (max-width: 1750px) {
   #footer {
-    min-height: 68vh;
+    min-height: 72vh;
   }
 }
 
 @media (max-width: 1200px) {
   #footer {
     min-height: 70vh;
+  }
+
+  .logo-column {
+    gap: 4.2rem !important;
   }
 
   .footer-contact-information p {
@@ -89,9 +93,6 @@
   .rci-logo-svg {
     transform: scale(0.85);
   }
-}
-
-@media (max-width: 946px) {
   .footer-contact-information p {
     font-size: 1rem;
   }
@@ -146,13 +147,35 @@
   .rci-logo-svg {
     transform: scale(0.7);
   }
+
+  .footer-contact-information p {
+    font-size: 0.9rem;
+  }
+
+  .svg-icon {
+    transform: scale(0.85);
+  }
 }
 
+@media (max-width: 672px) {
+  .svg-icon {
+    padding-right: 0 !important;
+  }
 
-// @media (max-width: 660px) {
-//   .rci-logo-svg {
-//   }
-// }
+  .location {
+    width: 8vh !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-contact-information p {
+    font-size: 0.8rem;
+  }
+
+  .footer-header-link {
+    font-size: 1.1rem;
+  }
+}
 
 .logo-column {
   gap: 5.2rem;
