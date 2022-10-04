@@ -168,6 +168,36 @@ main {
   }
 }
 
+@media (max-width: 580px) {
+  .company-message {
+    font-size: 28px !important;
+    line-height: 35px !important;
+    margin-right: 0;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .svg-overlay {
+    left: 28%;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 530px) {
+  .company-message {
+    font-size: 21px !important;
+    line-height: 26px !important;
+    margin-right: 0;
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .svg-overlay {
+    left: 18%;
+    transform: scale(0.5);
+  }
+}
+
 .company-message {
   top: 43%;
   left: 43%;
@@ -557,9 +587,25 @@ main {
 ////INSTAGRAM CARDS
 
 #instagram-cards {
-  min-height: 80vh;
+  min-height: 75vh;
   background-color: var(--white);
 }
+
+@media (max-width: 1200px) {
+  #instagram-cards {
+    min-height: 65vh;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  #instagram-cards {
+    min-height: 55vh;
+  }
+}
+
+
 
 .instagram-title {
   font-style: normal;
@@ -569,7 +615,7 @@ main {
   font-size: 21px;
   line-height: 30px;
   font-family: 'Sprint Sans', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 2.13px;
   opacity: 1;
 }
 

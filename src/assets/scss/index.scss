@@ -317,6 +317,24 @@ body {
   margin-bottom: 0;
 }
 
+@media(max-width: 745px) {
+
+  .call-to-action-message__line {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+// @media(max-width: 580px) {
+
+//   .call-to-action-message__line {
+//     font-size: 21px;
+//     line-height: 26px;
+//   }
+// }
+
+
+
 .career-link {
   border: 2px solid var(--white);
   color: var(--white);
