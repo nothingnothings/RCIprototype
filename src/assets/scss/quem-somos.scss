@@ -17,7 +17,6 @@
 }
 
 .motive-container {
-  // margin-top: 12rem !important;
 }
 
 .motive-header {
@@ -249,11 +248,6 @@
   opacity: 1;
   color: var(--blue);
 }
-
-// .insight-redirect-btn:hover {
-//   color: var(--blue);
-//   text-decoration: none;
-// }
 
 .insight-redirect-btn::after {
   background-color: var(--blue) !important;
