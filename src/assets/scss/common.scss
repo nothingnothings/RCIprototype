@@ -38,6 +38,7 @@ html {
 
 main {
   padding-top: 0 !important;
+  transition: 1s;
 }
 
 //BANNER
@@ -211,6 +212,9 @@ main {
   margin-left: 5.4rem;
 }
 
+
+//estilo original
+
 #side-menu-toggle {
   border: 3px solid var(--white);
   border-radius: 50px;
@@ -226,17 +230,57 @@ main {
   padding-bottom: 0;
 }
 
-#side-menu-toggle:hover {
-  border: 3px solid var(--blue);
-}
-
-#side-menu-toggle:hover > .toggle-button__bar {
-  background-color: var(--blue);
-}
-
-// .navbar-toggler:active {
-//   margin-bottom: 23rem;
+// #side-menu-toggle:hover {
+//   border: 3px solid var(--blue);
 // }
+
+// #side-menu-toggle:hover > .toggle-button__bar {
+//   background-color: var(--blue);
+// }
+
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  right: 0;
+  background-color: var(--dark-1);
+  // overflow-x: hidden;
+  transition: 1s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: var(--white);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a.selected {
+  color: var(--blue);
+  pointer-events: none;
+  background: none !important;
+}
+
+.sidebar a:hover {
+  color: var(--blue);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
 .active-toggler {
   border: 3px solid var(--blue) !important;
@@ -244,6 +288,10 @@ main {
 
 .active-toggler > .toggle-button__bar {
     background-color: var(--blue);
+}
+
+.toggle-button {
+  margin-right: 6rem !important;
 }
 
 .toggle-button__bar {
@@ -279,7 +327,7 @@ main {
   }
 
   .custom-mobile-sidebar {
-    margin-left: 6.15rem;
+    // margin-left: 6.15rem;
     border-left: 2px solid var(--white);
   }
 

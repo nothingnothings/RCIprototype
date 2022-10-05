@@ -44,11 +44,7 @@ request.send();
     <body>
         <header>
             <nav class="navbar navbar-expand-xl bg-transparent fixed-top custom-navbar">
-                <button class="navbar-toggler" id="side-menu-toggle" type="button"  data-toggle="collapse" data-target="#navbarMenu">
-                    <span class="toggle-button__bar"></span>
-                    <span class="toggle-button__bar" style="height: 0.22rem;"></span>
-                    <span class="toggle-button__bar"></span>
-                </button>
+     
                 <a href="#" class="navbar-brand custom-navbar-brand mr-auto active-class">
                     <svg
                         id="svg1317"
@@ -62,6 +58,18 @@ request.send();
                         </g>
                     </svg>
                 </a>
+                <!-- <button class="navbar-toggler" id="side-menu-toggle" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar" style="height: 0.22rem;"></span>
+                    <span class="toggle-button__bar"></span>
+                </button> -->
+
+                <button class="toggle-button px-3" id="side-menu-toggle" type="button">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar" style="height: 0.22rem;"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+
        
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <ul class="navbar-nav mr-auto custom-mobile-sidebar mt-2 mt-xl-0">
@@ -82,6 +90,15 @@ request.send();
                         </li>
                     </ul>
                 </div>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn"
+                      >x</a
+                    >
+              
+                    <a href="https://nothingnothings.github.io/HostCorpsWebpackVersion/packages">Packages</a>
+                    <a href="https://nothingnothings.github.io/HostCorpsWebpackVersion/customers">Customers</a>
+                    <a href="https://nothingnothings.github.io/HostCorpsWebpackVersion/start-hosting" id="get-started-link">Start Hosting</a>
+                  </div>
                 <div class="collapse navbar-collapse special-collapse">
                     <ul class="navbar-nav custom-menu-items ml-auto">
                         <li class="nav-item">

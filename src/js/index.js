@@ -86,6 +86,12 @@ import mstTile from '../assets/images/mstile-150x150.png';
 import safariPinned from '../assets/images/safari-pinned-tab.svg';
 import browserConfig from '../assets/images/browserconfig.xml';
 
+
+var toggleButton = document.querySelector('.toggle-button');
+var closeBtn = document.querySelector('.closebtn');
+
+
+
 $('#carousel-multi').carousel({
   interval: false,
 });
@@ -222,20 +228,6 @@ $(document).ready(function () {
   });
 });
 
-///navbar-toggler function
-
-$(document).ready(function () {
-  $('.navbar-toggler').on('click', function (event) {
-
-    console.log('ENTERED');
-    if ($(this).hasClass('active-toggler')) {
-      $(this).removeClass('active-toggler');
-    } else {
-      $(this).addClass('active-toggler');
-    }
-  });
-});
-
 ///2nd carousel
 
 $('#cases-carousel .carousel-wrapper .carousel')
@@ -265,3 +257,41 @@ $('#cases-carousel .carousel-wrapper .carousel')
         .removeClass('inactive-control');
     }
   });
+
+
+
+
+  ///navbar-toggler function
+
+// $(document).ready(function () {
+//   $('.toggle-button').on('click', function (event) {
+
+//     console.log('ENTERED');
+//     if ($(this).hasClass('active-toggler')) {
+//       $(this).removeClass('active-toggler');
+//     } else {
+//       $(this).addClass('active-toggler');
+//     }
+//   });
+// });
+
+
+
+
+  function openNavigation() {
+    document.getElementById('mySidebar').style.width = '260px';
+    $('.toggle-button').addClass('active-toggler');
+    document.querySelector('main').style.marginLeft = '-260px';
+  }
+  
+  function closeNavigation() {
+    $('.toggle-button').removeClass('active-toggler');
+    document.getElementById('mySidebar').style.width = '0px';
+    document.querySelector('main').style.marginLeft = '0px';
+  
+  }
+
+
+toggleButton.addEventListener('click', openNavigation);
+
+closeBtn.addEventListener('click', closeNavigation);
