@@ -469,7 +469,7 @@ main {
 }
 
 .active-class {
-  color: var(--blue);
+  color: var(--blue) !important;
   pointer-events: none;
 }
 

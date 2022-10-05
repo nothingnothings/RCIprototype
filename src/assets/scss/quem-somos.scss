@@ -12,8 +12,11 @@
 }
 
 .card-comment {
-  max-height: 42vh;
-  min-height: 38vh;
+  // max-height: 42vh;
+  // min-height: 38vh;
+  // min-width: 16vw;
+  
+  max-width: 18vw;
 }
 
 .motive-container {
@@ -56,7 +59,116 @@
 
 .comment-image {
   max-width: 10rem;
-  margin-bottom: 33rem;
+  margin-bottom: 28rem;
+}
+
+@media (max-width: 1680px) {
+  .comment-image {
+    margin-bottom: 31rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .comment-image {
+    margin-bottom: 31.5rem;
+  }
+}
+
+@media (max-width: 1550px) {
+  .comment-image {
+    margin-bottom: 33rem;
+  }
+}
+
+@media (max-width: 1480px) {
+  .comment-image {
+    margin-bottom: 31.8rem;
+  }
+}
+
+@media (max-width: 1370px) {
+  .comment-image {
+    margin-bottom: 35.8rem;
+  }
+}
+
+
+@media (max-width: 1260px) {
+  .comment-image {
+    max-width: 9rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-comment {
+    max-width: 22vw;
+  }
+  
+  .comment-image {
+    margin-bottom: 30.8rem;
+    max-width: 12rem;
+    margin-left: 0.8rem;
+  }
+}
+
+
+@media (max-width: 1160px) {
+  
+  .comment-image {
+    margin-bottom: 33.8rem;
+    max-width: 11rem;
+    margin-left: 0.6rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .card-comment {
+    max-width: 25vw;
+  }
+  .comment-image {
+
+    margin-left: 0.2rem;
+  }
+}
+
+@media (max-width: 1085px) {
+
+  .comment-image {
+    margin-left: 0rem;
+    margin-bottom: 36.8rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .comment-image {
+    max-width: 9rem;
+  }
+}
+
+@media (max-width: 1015px) {
+
+  .comment-image {
+
+    margin-bottom: 38.8rem;
+
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .card-comment {
+    max-width: 50vw;
+  }
+
+
+  .comment-image {
+
+    margin-bottom: 20.8rem;
+    max-width: 7rem;
+
+  }
 }
 
 .person-name {
