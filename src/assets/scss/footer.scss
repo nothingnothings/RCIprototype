@@ -50,15 +50,22 @@
   opacity: 1;
 }
 
-@media (max-width: 1750px) {
+@media (max-width: 1850px) {
   #footer {
-    min-height: 72vh;
+    min-height: 78vh;
   }
 }
 
+@media (max-width: 1230px) { 
+  #footer {
+    min-height: 80vh;
+  }
+}
+
+
 @media (max-width: 1200px) {
   #footer {
-    min-height: 70vh;
+    min-height: 75vh;
   }
 
   .logo-column {
@@ -74,15 +81,29 @@
   }
 }
 
+@media (max-width: 1150px) {
+  #footer {
+    min-height: 74vh;
+  }
+}
+
+
 @media (max-width: 1140px) {
   .location {
     width: 30vh !important;
   }
 }
 
+
+@media (max-width: 1200px) {
+  #footer {
+    min-height: 78vh;
+  }
+}
+
 @media (max-width: 1040px) {
   #footer {
-    min-height: 76vh;
+    min-height: 83vh;
   }
 
   .location {
@@ -126,7 +147,7 @@
 
 @media (max-width: 768px) {
   #footer {
-    min-height: 83vh;
+    min-height: 92vh;
   }
 }
 

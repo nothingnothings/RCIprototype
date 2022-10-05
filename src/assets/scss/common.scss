@@ -28,7 +28,8 @@ body {
   width: 100%;
   margin: 0px;
   //WHITE RIGHT BORDER FIX
-  overflow-x: hidden;
+  // overflow-x: auto;
+  overflow-x: clip;
 }
 
 html {
@@ -282,12 +283,19 @@ main {
   margin-left: 50px;
 }
 
-.active-toggler {
-  border: 3px solid var(--blue) !important;
+// .active-toggler {
+//   // border: 3px solid var(--blue) !important;
+//   border: none;
+//   display: none;
+//   color: transparent;
+// }
+
+.toggle-button.active-toggler {
+  border: transparent !important;
 }
 
 .active-toggler > .toggle-button__bar {
-    background-color: var(--blue);
+    display: none;
 }
 
 .toggle-button {
