@@ -222,6 +222,20 @@ $(document).ready(function () {
   });
 });
 
+///navbar-toggler function
+
+$(document).ready(function () {
+  $('.navbar-toggler').on('click', function (event) {
+
+    console.log('ENTERED');
+    if ($(this).hasClass('active-toggler')) {
+      $(this).removeClass('active-toggler');
+    } else {
+      $(this).addClass('active-toggler');
+    }
+  });
+});
+
 ///2nd carousel
 
 $('#cases-carousel .carousel-wrapper .carousel')
