@@ -345,6 +345,18 @@ main {
   }
 }
 
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    margin-left: 2rem;
+  }
+
+  .toggle-button {
+    margin-right: 3rem !important;
+  }
+}
+
+
 .custom-menu-items {
   margin-right: 7rem;
 }

@@ -173,7 +173,7 @@ body {
   min-height: 170vh;
 }
 
-@media(min-width: 769px) and (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
   #partners-and-clients {
     min-height: 150vh;
   }
@@ -266,62 +266,95 @@ body {
   background-color: var(--blue) !important;
 }
 
-
-
-
-
-@media(min-width: 1913px) and (max-width: 1950px) {
+@media (min-width: 1913px) and (max-width: 1950px) {
   .client-link:after {
     width: 25.5%;
   }
 }
 
-
-
-@media(min-width: 1900px) and (max-width: 1912px) {
+@media (min-width: 1900px) and (max-width: 1912px) {
   .client-link:after {
     width: 26%;
   }
 }
 
-@media(min-width: 1891px) and (max-width: 1899px) {
+@media (min-width: 1891px) and (max-width: 1899px) {
   .client-link:after {
     width: 26.5%;
   }
 }
 
-@media(min-width: 1881px) and (max-width: 1890px) {
+@media (min-width: 1881px) and (max-width: 1890px) {
   .client-link:after {
     width: 26.8%;
   }
 }
 
-@media(min-width: 1871px) and (max-width: 1880px) {
+@media (min-width: 1871px) and (max-width: 1880px) {
   .client-link:after {
     width: 27.6%;
   }
 }
 
-@media(min-width: 1861px) and (max-width: 1870px) {
+@media (min-width: 1861px) and (max-width: 1870px) {
   .client-link:after {
     width: 27.8%;
   }
 }
 
-@media(min-width: 1851px) and (max-width: 1869px) {
+@media (min-width: 1851px) and (max-width: 1869px) {
   .client-link:after {
     width: 29%;
   }
 }
 
-
-
-@media(min-width: 1841px) and (max-width: 1850px) {
+@media (min-width: 1841px) and (max-width: 1850px) {
   .client-link:after {
     width: 29.8%;
   }
 }
 
+@media (min-width: 1801px) and (max-width: 1840px) {
+  .client-link:after {
+    width: 28%;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .client-link:after {
+    width: 27%;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1700px) {
+  .client-link:after {
+    width: 29%;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1600px) {
+  .client-link:after {
+    width: 32%;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1501px) {
+  .client-link:after {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1400px) {
+  .client-link:after {
+    width: 38%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .client-link:after {
+    width: 41%;
+  }
+}
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .client-link:after {
@@ -329,78 +362,98 @@ body {
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 940px) and (max-width: 991px) {
   .client-link:after {
-    width: 43%;
+    width: 55%;
   }
 }
 
-@media (min-width: 565px) and (max-width: 575px) {
+@media (min-width: 920px) and (max-width: 939px) {
   .client-link:after {
-    width: 58%;
+    width: 57%;
   }
 }
 
-@media (min-width: 555px) and (max-width: 564px) {
+@media (min-width: 900px) and (max-width: 919px) {
   .client-link:after {
-    width: 60%;
+    width: 59%;
   }
 }
 
-@media (min-width: 545px) and (max-width: 554px) {
+@media (min-width: 880px) and (max-width: 899px) {
   .client-link:after {
-    width: 62%;
+    width: 61%;
   }
 }
 
-@media (min-width: 535px) and (max-width: 549px) {
+@media (min-width: 860px) and (max-width: 879px) {
   .client-link:after {
-    width: 64%;
+    width: 63%;
   }
 }
 
-@media (min-width: 525px) and (max-width: 539px) {
+@media (min-width: 800px) and (max-width: 859px) {
   .client-link:after {
-    width: 66%;
+    width: 63%;
   }
 }
 
-@media (min-width: 515px) and (max-width: 529px) {
+@media (min-width: 768px) and (max-width: 799px) {
   .client-link:after {
-    width: 68%;
+    width: 72%;
   }
 }
 
-@media (min-width: 505px) and (max-width: 519px) {
+@media (min-width: 720px) and (max-width: 768px) {
   .client-link:after {
-    width: 68.5%;
+    width: 76%;
   }
 }
 
-@media (min-width: 476px) and (max-width: 504px) {
+@media (min-width: 680px) and (max-width: 719px) {
   .client-link:after {
-    width: 72.5%;
+    width: 80%;
   }
 }
 
-@media (min-width: 406px) and (max-width: 475px) {
+@media (min-width: 620px) and (max-width: 679px) {
   .client-link:after {
-    width: 74.5%;
+    width: 89%;
   }
 }
 
+@media (min-width: 580px) and (max-width: 619px) {
+  .client-link:after {
+    width: 100%;
+  }
+}
 
+@media (min-width: 540px) and (max-width: 579px) {
+  .client-link:after {
+    width: 120%;
+  }
+}
 
+@media (min-width: 500px) and (max-width: 539px) {
+  .client-link:after {
+    width: 130%;
+  }
+}
 
+@media (min-width: 460px) and (max-width: 499px) {
+  .client-link:after {
+    width: 160%;
+  }
+}
 
-
-
-
-
-
-
-
-
+@media (min-width: 1px) and (max-width: 685px) {
+  .arrow-line {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+}
 
 .circles {
   gap: 1.5rem;
