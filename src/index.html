@@ -44,7 +44,12 @@ request.send();
     <body>
         <header>
             <nav class="navbar navbar-expand-xl bg-transparent fixed-top custom-navbar">
-                <a href="#" class="navbar-brand pl-5 active-class">
+                <button class="navbar-toggler" id="side-menu-toggle" type="button"  data-toggle="collapse" data-target="#navbarMenu">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar" style="height: 0.22rem;"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+                <a href="#" class="navbar-brand custom-navbar-brand mr-auto active-class">
                     <svg
                         id="svg1317"
                         width="200"
@@ -57,25 +62,23 @@ request.send();
                         </g>
                     </svg>
                 </a>
-                <button class="navbar-toggler mr-auto" data-toggle="collapse" data-target="#navbarMenu">
-                    <span class="navbar-toggler-icon text-white"> ></span>
-                </button>
+       
                 <div class="collapse navbar-collapse" id="navbarMenu">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto custom-mobile-sidebar mt-2 mt-xl-0">
                         <li class="nav-item">
-                            <a href="./quem-somos.html" class="nav-link m-4 nav-link-custom">quem somos</a>
+                            <a href="./quem-somos.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom text-nowrap">quem somos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./o-que-fazemos.html" class="nav-link m-4 nav-link-custom">o que fazemos</a>
+                            <a href="./o-que-fazemos.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom text-nowrap">o que fazemos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./RCInsights.html" class="nav-link m-4 nav-link-custom">RCInsights</a>
+                            <a href="./RCInsights.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom">RCInsights</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#careers" class="nav-link m-4 nav-link-custom">carreiras</a>
+                            <a href="#careers" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom">carreiras</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact-form" class="nav-link m-4 nav-link-custom">contato</a>
+                            <a href="#contact-form" class="nav-link m-2 m-xl-4 nav-link-custom">contato</a>
                         </li>
                     </ul>
                 </div>

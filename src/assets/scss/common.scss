@@ -211,6 +211,76 @@ main {
   margin-left: 5.4rem;
 }
 
+#side-menu-toggle {
+  border: 3px solid var(--white);
+  border-radius: 50px;
+  display: block;
+  background: transparent;
+  // position: absolute;
+  margin-top: 0.22rem;
+  color: var(--white);
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#side-menu-toggle:hover {
+  border: 3px solid var(--blue);
+}
+
+#side-menu-toggle:hover > .toggle-button__bar {
+  background-color: var(--blue);
+}
+
+// .navbar-toggler:active {
+//   margin-bottom: 23rem;
+// }
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--white);
+  display: block;
+  margin: 0.6rem 0;
+}
+
+@media (min-width: 1200px) {
+  #side-menu-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.9px) {
+  .custom-navbar-brand {
+    padding-left: 2.2rem !important;
+  }
+
+  .nav-link-custom {
+    display: inline-block !important;
+  }
+
+  .nav-link-custom:hover {
+    color: var(--blue) !important;
+  }
+
+  .nav-link-custom:hover::after {
+    opacity: 0 !important;
+    text-decoration: none !important;
+  }
+
+  .custom-mobile-sidebar {
+    margin-left: 6.15rem;
+    border-left: 2px solid var(--white);
+  }
+
+  .custom-navbar {
+    margin-left: 3.5rem;
+    padding-top: 5.5rem;
+  }
+}
+
 .custom-menu-items {
   margin-right: 7rem;
 }
@@ -307,6 +377,19 @@ main {
 
 .svg-link:hover {
   color: transparent;
+}
+
+// .collapsing {
+//   -webkit-transition: none;
+//   transition: none;
+//   display: none;
+// }
+
+@media (max-width: 1431.31px) {
+  .svg-link {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 
 .active-class {
@@ -586,15 +669,11 @@ main {
   }
 }
 
-
-
 @media (max-width: 992px) {
   #instagram-cards {
     min-height: 55vh;
   }
 }
-
-
 
 .instagram-title {
   font-style: normal;
