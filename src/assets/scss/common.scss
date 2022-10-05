@@ -27,6 +27,8 @@ body {
   font-family: 'Atkinson Hyperlegible';
   width: 100%;
   margin: 0px;
+  //WHITE RIGHT BORDER FIX
+  overflow-x: hidden;
 }
 
 html {
@@ -41,7 +43,7 @@ main {
 //BANNER
 
 #banner {
-  min-width: 50vh;
+  // min-width: 50vh;
 }
 
 .image-wrapper {
