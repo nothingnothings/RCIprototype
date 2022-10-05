@@ -15,7 +15,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-xl bg-transparent fixed-top custom-navbar">
-                <a href="index.html" class="navbar-brand pl-5">
+                <a href="#" class="navbar-brand custom-navbar-brand mr-auto active-class">
                     <svg
                         id="svg1317"
                         width="200"
@@ -28,120 +28,127 @@
                         </g>
                     </svg>
                 </a>
-                <button
-                class="navbar-toggler mr-auto"
-                data-toggle="collapse"
-                data-target="#navbarMenu"
-              >
-                <span class="navbar-toggler-icon text-white"> ></span>
-              </button>
+                <button class="toggle-button px-3" id="side-menu-toggle" type="button">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar" style="height: 0.22rem;"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav mr-auto" >
-                    <li class="nav-item">
-                        <a href="./quem-somos.html" class="nav-link m-4 nav-link-custom active-class">quem somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./o-que-fazemos.html" class="nav-link m-4 nav-link-custom">o que fazemos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./RCInsights.html" class="nav-link m-4 nav-link-custom">RCInsights</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="index.html#careers" class="nav-link m-4 nav-link-custom">carreiras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact-form" class="nav-link m-4 nav-link-custom">contato</a>
-                    </li>
-                </ul>
-            </div>
+                    <ul class="navbar-nav mr-auto custom-mobile-sidebar mt-2 mt-xl-0">
+                        <li class="nav-item">
+                            <a href="./quem-somos.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom text-nowrap">quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./o-que-fazemos.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom text-nowrap">o que fazemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./RCInsights.html" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom">RCInsights</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#careers" class="nav-link m-2 pb-1 pb-xl-0 m-xl-4 nav-link-custom">carreiras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact-form" class="nav-link m-2 m-xl-4 nav-link-custom">contato</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn">x
+                    </a
+                    >
+                    <a href="quem-somos.html">quem somos</a>
+                    <a href="o-que-fazemos.html">o que fazemos</a>
+                    <a href="RCInsights.html">RCInsights</a>
+                    <a href="index.html#careers">carreiras</a>
+                    <a href="#contact-form">contato</a>
+                </div>
                 <div class="collapse navbar-collapse special-collapse">
-                <ul class="navbar-nav custom-menu-items ml-auto">
-                    <li class="nav-item">
-                        <a href="" class="nav-link svg-link m-1">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="52"
-                                height="52"
-                                viewBox="0 0 52 52"
-                            >
-                                <g id="Grupo_149" data-name="Grupo 149" transform="translate(-1579 -64)">
-                                    <circle
-                                        id="Elipse_11"
-                                        data-name="Elipse 11"
-                                        cx="26"
-                                        cy="26"
-                                        r="26"
-                                        transform="translate(1579 64)"
-                                        fill="#1d1d1b"
-                                    />
-                                    <path
-                                        id="Icon_awesome-instagram"
-                                        data-name="Icon awesome-instagram"
-                                        d="M13.334,8.734a6.837,6.837,0,1,0,6.837,6.837A6.826,6.826,0,0,0,13.334,8.734Zm0,11.282a4.445,4.445,0,1,1,4.445-4.445,4.453,4.453,0,0,1-4.445,4.445ZM22.045,8.454A1.595,1.595,0,1,1,20.451,6.86,1.591,1.591,0,0,1,22.045,8.454Zm4.528,1.619A7.892,7.892,0,0,0,24.42,4.485a7.944,7.944,0,0,0-5.587-2.154c-2.2-.125-8.8-.125-11,0A7.932,7.932,0,0,0,2.242,4.48,7.918,7.918,0,0,0,.088,10.067c-.125,2.2-.125,8.8,0,11a7.892,7.892,0,0,0,2.154,5.587A7.954,7.954,0,0,0,7.83,28.811c2.2.125,8.8.125,11,0a7.892,7.892,0,0,0,5.587-2.154,7.944,7.944,0,0,0,2.154-5.587c.125-2.2.125-8.795,0-11ZM23.729,23.432a4.5,4.5,0,0,1-2.535,2.535c-1.755.7-5.921.536-7.86.536s-6.111.155-7.86-.536a4.5,4.5,0,0,1-2.535-2.535c-.7-1.755-.536-5.921-.536-7.86s-.155-6.111.536-7.86A4.5,4.5,0,0,1,5.474,5.176c1.755-.7,5.921-.536,7.86-.536s6.111-.155,7.86.536a4.5,4.5,0,0,1,2.535,2.535c.7,1.755.536,5.921.536,7.86S24.426,21.682,23.729,23.432Z"
-                                        transform="translate(1591.669 74.429)"
-                                        fill="#fff"
-                                    />
-                                </g>
-                            </svg>
-                        </a>
-                        <a href="" class="nav-link svg-link m-1">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="52"
-                                height="52"
-                                viewBox="0 0 52 52"
-                            >
-                                <g id="Grupo_148" data-name="Grupo 148" transform="translate(-1656 -64)">
-                                    <circle
-                                        id="Elipse_12"
-                                        data-name="Elipse 12"
-                                        cx="26"
-                                        cy="26"
-                                        r="26"
-                                        transform="translate(1656 64)"
-                                        fill="#1d1d1b"
-                                    />
-                                    <path
-                                        id="Icon_awesome-linkedin-in"
-                                        data-name="Icon awesome-linkedin-in"
-                                        d="M5.521,24.667H.407V8.2H5.521ZM2.962,5.952a2.976,2.976,0,1,1,2.962-2.99A2.987,2.987,0,0,1,2.962,5.952Zm21.7,18.715h-5.1V16.651c0-1.911-.039-4.361-2.659-4.361-2.659,0-3.066,2.076-3.066,4.223v8.154H8.725V8.2h4.9v2.246H13.7A5.374,5.374,0,0,1,18.54,7.786c5.176,0,6.127,3.408,6.127,7.835v9.046Z"
-                                        transform="translate(1670 76.666)"
-                                        fill="#fff"
-                                    />
-                                </g>
-                            </svg>
-                        </a>
-                        <a href="" class="nav-link svg-link m-1">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="52"
-                                height="52"
-                                viewBox="0 0 52 52"
-                            >
-                                <g id="Grupo_147" data-name="Grupo 147" transform="translate(-1733 -64)">
-                                    <circle
-                                        id="Elipse_13"
-                                        data-name="Elipse 13"
-                                        cx="26"
-                                        cy="26"
-                                        r="26"
-                                        transform="translate(1733 64)"
-                                        fill="#1d1d1b"
-                                    />
-                                    <path
-                                        id="Icon_awesome-youtube"
-                                        data-name="Icon awesome-youtube"
-                                        d="M31.468,7.918a3.9,3.9,0,0,0-2.747-2.764C26.3,4.5,16.583,4.5,16.583,4.5s-9.715,0-12.138.653A3.9,3.9,0,0,0,1.7,7.918a40.95,40.95,0,0,0-.649,7.526A40.95,40.95,0,0,0,1.7,22.97a3.845,3.845,0,0,0,2.747,2.72c2.423.653,12.138.653,12.138.653s9.715,0,12.138-.653a3.845,3.845,0,0,0,2.747-2.72,40.95,40.95,0,0,0,.649-7.526,40.95,40.95,0,0,0-.649-7.526ZM13.406,20.063V10.825l8.12,4.619-8.12,4.619Z"
-                                        transform="translate(1741.95 74.5)"
-                                        fill="#fff"
-                                    />
-                                </g>
-                            </svg>
-                        </a>
-
-                    </li>
-                </ul>
-            </div>
+                    <ul class="navbar-nav custom-menu-items ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link svg-link m-1">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="52"
+                                    height="52"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <g id="Grupo_149" data-name="Grupo 149" transform="translate(-1579 -64)">
+                                        <circle
+                                            id="Elipse_11"
+                                            data-name="Elipse 11"
+                                            cx="26"
+                                            cy="26"
+                                            r="26"
+                                            transform="translate(1579 64)"
+                                            fill="#1d1d1b"
+                                        />
+                                        <path
+                                            id="Icon_awesome-instagram"
+                                            data-name="Icon awesome-instagram"
+                                            d="M13.334,8.734a6.837,6.837,0,1,0,6.837,6.837A6.826,6.826,0,0,0,13.334,8.734Zm0,11.282a4.445,4.445,0,1,1,4.445-4.445,4.453,4.453,0,0,1-4.445,4.445ZM22.045,8.454A1.595,1.595,0,1,1,20.451,6.86,1.591,1.591,0,0,1,22.045,8.454Zm4.528,1.619A7.892,7.892,0,0,0,24.42,4.485a7.944,7.944,0,0,0-5.587-2.154c-2.2-.125-8.8-.125-11,0A7.932,7.932,0,0,0,2.242,4.48,7.918,7.918,0,0,0,.088,10.067c-.125,2.2-.125,8.8,0,11a7.892,7.892,0,0,0,2.154,5.587A7.954,7.954,0,0,0,7.83,28.811c2.2.125,8.8.125,11,0a7.892,7.892,0,0,0,5.587-2.154,7.944,7.944,0,0,0,2.154-5.587c.125-2.2.125-8.795,0-11ZM23.729,23.432a4.5,4.5,0,0,1-2.535,2.535c-1.755.7-5.921.536-7.86.536s-6.111.155-7.86-.536a4.5,4.5,0,0,1-2.535-2.535c-.7-1.755-.536-5.921-.536-7.86s-.155-6.111.536-7.86A4.5,4.5,0,0,1,5.474,5.176c1.755-.7,5.921-.536,7.86-.536s6.111-.155,7.86.536a4.5,4.5,0,0,1,2.535,2.535c.7,1.755.536,5.921.536,7.86S24.426,21.682,23.729,23.432Z"
+                                            transform="translate(1591.669 74.429)"
+                                            fill="#fff"
+                                        />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="" class="nav-link svg-link m-1">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="52"
+                                    height="52"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <g id="Grupo_148" data-name="Grupo 148" transform="translate(-1656 -64)">
+                                        <circle
+                                            id="Elipse_12"
+                                            data-name="Elipse 12"
+                                            cx="26"
+                                            cy="26"
+                                            r="26"
+                                            transform="translate(1656 64)"
+                                            fill="#1d1d1b"
+                                        />
+                                        <path
+                                            id="Icon_awesome-linkedin-in"
+                                            data-name="Icon awesome-linkedin-in"
+                                            d="M5.521,24.667H.407V8.2H5.521ZM2.962,5.952a2.976,2.976,0,1,1,2.962-2.99A2.987,2.987,0,0,1,2.962,5.952Zm21.7,18.715h-5.1V16.651c0-1.911-.039-4.361-2.659-4.361-2.659,0-3.066,2.076-3.066,4.223v8.154H8.725V8.2h4.9v2.246H13.7A5.374,5.374,0,0,1,18.54,7.786c5.176,0,6.127,3.408,6.127,7.835v9.046Z"
+                                            transform="translate(1670 76.666)"
+                                            fill="#fff"
+                                        />
+                                    </g>
+                                </svg>
+                            </a>
+                            <a href="" class="nav-link svg-link m-1">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="52"
+                                    height="52"
+                                    viewBox="0 0 52 52"
+                                >
+                                    <g id="Grupo_147" data-name="Grupo 147" transform="translate(-1733 -64)">
+                                        <circle
+                                            id="Elipse_13"
+                                            data-name="Elipse 13"
+                                            cx="26"
+                                            cy="26"
+                                            r="26"
+                                            transform="translate(1733 64)"
+                                            fill="#1d1d1b"
+                                        />
+                                        <path
+                                            id="Icon_awesome-youtube"
+                                            data-name="Icon awesome-youtube"
+                                            d="M31.468,7.918a3.9,3.9,0,0,0-2.747-2.764C26.3,4.5,16.583,4.5,16.583,4.5s-9.715,0-12.138.653A3.9,3.9,0,0,0,1.7,7.918a40.95,40.95,0,0,0-.649,7.526A40.95,40.95,0,0,0,1.7,22.97a3.845,3.845,0,0,0,2.747,2.72c2.423.653,12.138.653,12.138.653s9.715,0,12.138-.653a3.845,3.845,0,0,0,2.747-2.72,40.95,40.95,0,0,0,.649-7.526,40.95,40.95,0,0,0-.649-7.526ZM13.406,20.063V10.825l8.12,4.619-8.12,4.619Z"
+                                            transform="translate(1741.95 74.5)"
+                                            fill="#fff"
+                                        />
+                                    </g>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <main>
