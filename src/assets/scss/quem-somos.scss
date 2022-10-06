@@ -4,11 +4,29 @@
   color: var(--grey) !important;
 }
 
+
+
+@media(max-width: 992px) {
+
+  .long-message p {
+    font-size: 28px !important;
+    line-height: 35px !important;
+  }
+}
+
 //COMMENTS
 
 #comments {
   height: 240vh;
   background-color: var(--white);
+}
+
+
+@media (max-width: 992px) {
+
+  #comments {
+    height: 350vh;
+  }
 }
 
 .card-comment {
@@ -17,9 +35,7 @@
   // min-width: 16vw;
   
   max-width: 18vw;
-}
-
-.motive-container {
+  min-height: 40vh;
 }
 
 .motive-header {
@@ -59,7 +75,7 @@
 
 .comment-image {
   max-width: 10rem;
-  margin-bottom: 28rem;
+  margin-bottom: 32rem;
 }
 
 @media (max-width: 1680px) {
@@ -76,30 +92,67 @@
 
 @media (max-width: 1550px) {
   .comment-image {
-    margin-bottom: 33rem;
+    margin-bottom: 34.2rem;
   }
 }
 
 @media (max-width: 1480px) {
   .comment-image {
-    margin-bottom: 31.8rem;
+    margin-bottom: 33.8rem;
+  }
+}
+
+@media (max-width: 1460px) {
+  .comment-image {
+    margin-bottom: 35.8rem;
   }
 }
 
 @media (max-width: 1370px) {
   .comment-image {
     margin-bottom: 35.8rem;
+    margin-left: -0.5rem;
   }
 }
 
+@media (max-width: 1355px) {
+  .comment-image {
+    margin-bottom: 37.8rem;
+  }
+}
+
+
+@media (max-width: 1302px) {
+  .comment-image {
+    margin-bottom: 40rem;
+  }
+}
 
 @media (max-width: 1260px) {
   .comment-image {
     max-width: 9rem;
+    margin-bottom: 41.5rem;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1230px) {
+  .comment-image {
+    margin-bottom: 43.5rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  .comment-image {
+    margin-bottom: 45rem;
+  }
+}
+
+
+@media(width: 1200px) {
+  
+}
+
+@media (max-width: 1199.98px) {
   .card-comment {
     max-width: 22vw;
   }
@@ -135,7 +188,7 @@
 
   .comment-image {
     margin-left: 0rem;
-    margin-bottom: 36.8rem;
+    margin-bottom: 34.8rem;
   }
 }
 
@@ -150,7 +203,7 @@
 
   .comment-image {
 
-    margin-bottom: 38.8rem;
+    margin-bottom: 36.8rem;
 
   }
 }
@@ -165,7 +218,7 @@
 
   .comment-image {
 
-    margin-bottom: 20.8rem;
+    margin-bottom: 27.5rem;
     max-width: 7rem;
 
   }
