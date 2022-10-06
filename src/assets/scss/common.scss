@@ -27,8 +27,6 @@ body {
   font-family: 'Atkinson Hyperlegible';
   width: 100%;
   margin: 0px;
-  //WHITE RIGHT BORDER FIX
-  // overflow-x: auto;
   overflow-x: clip;
 }
 
@@ -43,10 +41,6 @@ main {
 }
 
 //BANNER
-
-#banner {
-  // min-width: 50vh;
-}
 
 .image-wrapper {
   position: relative;
@@ -213,7 +207,6 @@ main {
   margin-left: 5.4rem;
 }
 
-
 //estilo original
 
 #side-menu-toggle {
@@ -221,7 +214,6 @@ main {
   border-radius: 50px;
   display: block;
   background: transparent;
-  // position: absolute;
   margin-top: 0.22rem;
   color: var(--white);
   cursor: pointer;
@@ -238,10 +230,6 @@ main {
 // #side-menu-toggle:hover > .toggle-button__bar {
 //   background-color: var(--blue);
 // }
-
-
-
-
 
 .sidebar {
   height: 100%;
@@ -295,7 +283,7 @@ main {
 }
 
 .active-toggler > .toggle-button__bar {
-    display: none;
+  display: none;
 }
 
 .toggle-button {
@@ -335,7 +323,6 @@ main {
   }
 
   .custom-mobile-sidebar {
-    // margin-left: 6.15rem;
     border-left: 2px solid var(--white);
   }
 
@@ -344,7 +331,6 @@ main {
     padding-top: 5.5rem;
   }
 }
-
 
 @media (max-width: 768px) {
   .custom-navbar {
@@ -355,7 +341,6 @@ main {
     margin-right: 3rem !important;
   }
 }
-
 
 .custom-menu-items {
   margin-right: 7rem;
@@ -454,12 +439,6 @@ main {
 .svg-link:hover {
   color: transparent;
 }
-
-// .collapsing {
-//   -webkit-transition: none;
-//   transition: none;
-//   display: none;
-// }
 
 @media (max-width: 1431.31px) {
   .svg-link {
@@ -592,7 +571,6 @@ main {
   border: 2px solid var(--white);
   text-decoration: none;
   display: inline-block;
-  // padding: 0.8rem 2.6rem;
   color: var(--white);
   font-style: normal;
   font-weight: normal;
