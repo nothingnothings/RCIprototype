@@ -17,10 +17,36 @@
 //COMMENTS
 
 #comments {
-  height: 240vh;
+  min-height: 240vh;
   background-color: var(--white);
 }
 
+
+@media(max-width: 1800px) {
+  #comments {
+    min-height: 270vh;
+  }
+}
+
+@media(max-width: 1480px) {
+  #comments {
+    min-height: 280vh;
+  }
+}
+
+
+@media(max-width: 1460px) {
+  #comments {
+    min-height: 290vh;
+  }
+}
+
+
+@media(max-width: 1460px) {
+  #comments {
+    min-height: 300vh;
+  }
+}
 
 @media (max-width: 992px) {
 
@@ -29,11 +55,8 @@
   }
 }
 
+
 .card-comment {
-  // max-height: 42vh;
-  // min-height: 38vh;
-  // min-width: 16vw;
-  
   max-width: 18vw;
   min-height: 40vh;
 }
@@ -72,6 +95,33 @@
   opacity: 1;
   margin-bottom: 0;
 }
+
+
+
+
+
+@media(max-width: 1770px) {
+
+  .motive-header {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+
+  .motive-quote__line {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .motive-quote-small__line {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+
+
+
 
 .comment-image {
   max-width: 10rem;
