@@ -146,7 +146,27 @@
 
 @media (max-width: 768px) {
   #footer {
-    min-height: 92vh;
+    // min-height: 92vh; //old footer;
+    min-height: 20vh; //revamped footer;
+    max-height: 50vh;
+  }
+
+
+  .rci-logo-svg {
+    transform: scale(1.3) !important;
+  }
+
+  .svg-icon {
+    transform: scale(1.2) !important;
+  }
+
+  .footer-description__line {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .logo-column {
+    padding-left: 0;
   }
 }
 
@@ -174,18 +194,22 @@
     font-size: 0.9rem;
   }
 
-  .svg-icon {
-    transform: scale(0.85);
-  }
+  // .svg-icon {
+  //   transform: scale(0.85);
+  // }
 }
 
 @media (max-width: 672px) {
-  .svg-icon {
-    padding-right: 0 !important;
-  }
+  // .svg-icon {
+  //   padding-right: 0 !important;
+  // }
 
   .location {
     width: 8vh !important;
+  }
+
+  .logo-column {
+    gap: 3.2rem !important;
   }
 }
 
