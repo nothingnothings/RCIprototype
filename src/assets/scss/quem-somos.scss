@@ -610,6 +610,17 @@
   opacity: 0.2;
 }
 
+
+@media(max-width: 992px) {
+
+
+  .prize-example {
+    min-height: 8rem;
+    max-width: 8rem;
+  }
+
+}
+
 ///TEAM-INSIGHTS
 
 #team-insights {
