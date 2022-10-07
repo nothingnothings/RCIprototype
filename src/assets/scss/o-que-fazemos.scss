@@ -21,6 +21,31 @@
   }
 }
 
+@media (max-width: 1199px) {
+  .case-container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1011px) {
+  .case-container {
+    max-width: 990px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .case-container {
+    max-width: 985px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .case-container {
+    max-width: 920px;
+  }
+}
+
 .cases-title {
   color: var(--blue);
   font-style: normal;
