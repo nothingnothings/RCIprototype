@@ -408,7 +408,6 @@
     padding-right: 0rem !important;
   }
 
-
   .info-quote__line-2 {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
@@ -502,8 +501,6 @@
   }
 }
 
-
-
 @media (max-width: 779px) {
   .info-quote-header h1 {
     margin-left: 3rem !important;
@@ -545,11 +542,19 @@
   .business-column {
     padding-left: 0;
   }
+
+  .special-header-margin {
+    margin-left: 2rem;
+  }
 }
 
 @media (max-width: 749px) {
   .info-quote__line {
     margin-left: 4.2rem !important;
+  }
+
+  .special-header-margin {
+    margin-left: 1.8rem;
   }
 }
 
@@ -557,12 +562,20 @@
   .info-quote__line {
     margin-left: 4rem !important;
   }
+
+  .special-header-margin {
+    margin-left: 1.6rem;
+  }
 }
 
 @media (max-width: 710px) {
   .info-quote__line {
     margin-left: 3.8rem !important;
   }
+
+  .special-header-margin {
+    margin-left: 1.5rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -571,15 +584,27 @@
   }
 }
 
-@media (max-width: 700px) {
-  .info-quote__line {
-    margin-left: 3.4rem !important;
+@media (max-width: 698px) {
+  .special-header-margin {
+    margin-left: 1.2rem;
   }
 }
 
 @media (max-width: 690px) {
   .info-quote__line {
     margin-left: 3.1rem !important;
+  }
+}
+
+@media (max-width: 681px) {
+  .special-header-margin {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 672px) {
+  .special-header-margin {
+    margin-left: 0.7rem;
   }
 }
 
@@ -592,5 +617,18 @@
 @media (max-width: 667px) {
   .info-quote__line {
     margin-left: 2.5rem !important;
+  }
+}
+
+@media (max-width: 664px) {
+  .special-header-margin {
+    margin-left: 0.8rem;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .special-header-margin {
+    margin-left: 0.4rem;
   }
 }
