@@ -674,6 +674,20 @@ main {
 }
 
 
+@media (max-width: 1020px) {
+  #info-single-1 {
+    min-height: 78vh;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #info-single-1 {
+    min-height: 92vh;
+  }
+}
+
+
 .info-header {
   font-style: normal;
   font-variant: normal;
