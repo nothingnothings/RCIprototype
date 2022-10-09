@@ -190,10 +190,6 @@ main {
   filter: brightness(1);
 }
 
-.long {
-  top: 40.5%;
-}
-
 .company-message p {
   margin-top: 0;
   margin-bottom: 0;
@@ -222,14 +218,6 @@ main {
   padding-top: 0;
   padding-bottom: 0;
 }
-
-// #side-menu-toggle:hover {
-//   border: 3px solid var(--blue);
-// }
-
-// #side-menu-toggle:hover > .toggle-button__bar {
-//   background-color: var(--blue);
-// }
 
 .sidebar {
   height: 100%;
@@ -270,13 +258,6 @@ main {
   font-size: 36px;
   margin-left: 50px;
 }
-
-// .active-toggler {
-//   // border: 3px solid var(--blue) !important;
-//   border: none;
-//   display: none;
-//   color: transparent;
-// }
 
 .toggle-button.active-toggler {
   border: transparent !important;
@@ -656,16 +637,11 @@ main {
   }
 }
 
-
-
-
 @media (max-width: 1278px) {
   #info-single-1 {
     min-height: 82vh;
   }
 }
-
-
 
 @media (max-width: 1215px) {
   #info-single-1 {
@@ -673,20 +649,17 @@ main {
   }
 }
 
-
 @media (max-width: 1020px) {
   #info-single-1 {
     min-height: 78vh;
   }
 }
 
-
 @media (max-width: 768px) {
   #info-single-1 {
     min-height: 92vh;
   }
 }
-
 
 .info-header {
   font-style: normal;
@@ -699,7 +672,7 @@ main {
   color: var(--light-yellow);
 }
 
-///////INFO-SINGLE-2 SECTION
+///////INFO-SINGLE SECTION specific styles
 
 #direct-quote {
   min-height: 55vh;

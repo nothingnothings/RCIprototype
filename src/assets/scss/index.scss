@@ -208,6 +208,27 @@ body {
   margin-bottom: 0;
 }
 
+.client-example {
+  background: linear-gradient(
+      to top left,
+      rgba(112, 112, 112, 0) 0%,
+      rgba(112, 112, 112, 0) calc(50% - 0.8px),
+      rgba(112, 112, 112, 1) 50%,
+      rgba(112, 112, 112, 0) calc(50% + 0.8px),
+      rgba(112, 112, 112, 0) 100%
+    ),
+    linear-gradient(
+      to top right,
+      rgba(112, 112, 112, 0) 0%,
+      rgba(112, 112, 112, 0) calc(50% - 0.8px),
+      rgba(112, 112, 112, 1) 50%,
+      rgba(112, 112, 112, 0) calc(50% + 0.8px),
+      rgba(112, 112, 112, 0) 100%
+    );
+  resize: none;
+  pointer-events: none;
+}
+
 @media (max-width: 900px) {
   .client-image img {
     height: 21rem;
@@ -455,6 +476,8 @@ body {
   }
 }
 
+//CIRCLES
+
 .circles {
   gap: 1.5rem;
   margin-top: 2.5rem;
@@ -472,27 +495,6 @@ body {
   height: 16px;
   border-radius: 0.5rem;
   background-color: var(--white-3);
-}
-
-.client-example {
-  background: linear-gradient(
-      to top left,
-      rgba(112, 112, 112, 0) 0%,
-      rgba(112, 112, 112, 0) calc(50% - 0.8px),
-      rgba(112, 112, 112, 1) 50%,
-      rgba(112, 112, 112, 0) calc(50% + 0.8px),
-      rgba(112, 112, 112, 0) 100%
-    ),
-    linear-gradient(
-      to top right,
-      rgba(112, 112, 112, 0) 0%,
-      rgba(112, 112, 112, 0) calc(50% - 0.8px),
-      rgba(112, 112, 112, 1) 50%,
-      rgba(112, 112, 112, 0) calc(50% + 0.8px),
-      rgba(112, 112, 112, 0) 100%
-    );
-  resize: none;
-  pointer-events: none;
 }
 
 //CAREERS

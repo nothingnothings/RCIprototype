@@ -223,16 +223,6 @@
     line-height: 20px;
   }
 
-  // .motive-quote__line {
-  //   font-size: 21px;
-  //   line-height: 30px;
-  // }
-
-  // .motive-quote-small__line {
-  //   font-size: 16px;
-  //   line-height: 20px;
-  // }
-
   .special-gap {
     gap: 1rem;
   }
@@ -573,7 +563,6 @@
 .multi-carousel .rightLst {
   position: absolute;
   border-radius: 50%;
-  // top: calc(50% - 20px);
   top: calc(50% - 110px);
 }
 .multi-carousel .leftLst {
@@ -625,23 +614,18 @@
   }
 }
 
-@media(max-width: 910px) {
-
+@media (max-width: 910px) {
   .prize-example {
     min-height: 8rem;
     max-width: 8rem;
   }
-
 }
 
-
-@media(max-width: 790px) {
-
+@media (max-width: 790px) {
   .prize-example {
     min-height: 8rem;
     max-width: 6rem;
   }
-
 
   .prize-title {
     font-size: 21px;
@@ -654,24 +638,16 @@
   }
 
   .multi-carousel .leftLst,
-.multi-carousel .rightLst {
-  margin-top: 0.5rem;
+  .multi-carousel .rightLst {
+    margin-top: 0.5rem;
+  }
+
+  .carousel-container {
+    padding: 0 !important;
+  }
 }
 
-
-.carousel-container {
-  padding: 0 !important;
-}
-
-
-
-
-}
-
-
-
-@media(max-width: 710px) {
-
+@media (max-width: 710px) {
 }
 
 ///TEAM-INSIGHTS
@@ -832,7 +808,6 @@
   .client-image-2 img {
     margin-bottom: 1rem;
     min-height: 37.5rem;
-    // max-width: 39rem;
   }
 
   .comment-quote__line {
