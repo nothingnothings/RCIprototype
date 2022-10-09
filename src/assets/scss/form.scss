@@ -30,10 +30,23 @@
   color: var(--light-grey) !important;
   font: normal normal normal 21px/26px Atkinson Hyperlegible !important;
   letter-spacing: 0 !important;
+  padding-left: 2.8rem;
 }
 
 .search-input {
   max-width: 24rem;
+  background-image: url('../images/icons/magnifying-glass-solid.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left 45%;
+}
+
+.filter-input {
+  max-width: 24rem;
+  background-image: url('../images/icons/feathers.svg');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center left;
 }
 
 .custom-form-control:focus {
