@@ -1,4 +1,3 @@
-
 // FORM
 
 #contact-form {
@@ -13,6 +12,28 @@
   border-bottom: 2px solid var(--grey-1);
   border-radius: 0;
   padding: 0;
+}
+
+.custom-form-control-2 {
+  outline: none;
+  background: transparent;
+  border-bottom: var(--light-grey) 2px solid;
+  color: var(--light-grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.custom-form-control-2::placeholder {
+  color: var(--light-grey) !important;
+  font: normal normal normal 21px/26px Atkinson Hyperlegible !important;
+  letter-spacing: 0 !important;
+}
+
+.search-input {
+  max-width: 24rem;
 }
 
 .custom-form-control:focus {

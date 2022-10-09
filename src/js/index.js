@@ -71,6 +71,16 @@ import '../assets/images/logos/RCI_ASSETS_Logos_SQREAM.png';
 import '../assets/images/logos/RCI_ASSETS_Logos_TABLEAU.png';
 import '../assets/images/logos/RCI_ASSETS_Logos_Varicent.png';
 
+
+
+
+
+//icons
+
+
+import '../assets/images/icons/feathers.svg';
+import '../assets/images/icons/magnifying-glass-solid.svg';
+
 //fonts
 import '../assets/fonts/ProductSansMedium.ttf';
 import '../assets/fonts/SprintSansMedium.otf';
