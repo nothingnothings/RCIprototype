@@ -9,7 +9,7 @@
   resize: none;
   background-color: var(--white-1);
   border: none;
-  border-bottom: 2px solid var(--grey-1);
+  border-bottom: 2.5px solid var(--grey-1);
   border-radius: 0;
   padding: 0;
 }
@@ -32,6 +32,47 @@
   letter-spacing: 0 !important;
   padding-left: 2.8rem;
 }
+
+.search-input:focus {
+  background-color: transparent !important;
+  padding-left: 2.8rem;
+}
+
+
+
+.search-input:not(:placeholder-shown) {
+  padding-left: 2.8rem;
+}
+
+
+
+.filter-input:focus {
+  background-color: transparent !important;
+}
+
+// .custom-form-control-2:focus::-webkit-input-placeholder {
+//   opacity: 0;
+//   background-color: transparent !important;
+//   padding-left: 2.8rem;
+// }
+
+// .custom-form-control-2:focus::-moz-placeholder {
+//  opacity: 0;
+//  background-color: transparent !important;
+//  padding-left: 2.8rem;
+// }
+
+// .custom-form-control-2:-ms-input-placeholder {
+//   opacity: 0;
+//   background-color: transparent !important;
+//   padding-left: 2.8rem;
+// }
+
+// .custom-form-control-2:-moz-placeholder {
+//  opacity: 0;
+//  background-color: transparent !important;
+//  padding-left: 2.8rem;
+// }
 
 .search-input {
   max-width: 24rem;
