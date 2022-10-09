@@ -255,6 +255,30 @@ $('#cases-carousel .carousel-wrapper .carousel')
     }
   });
 
+
+
+
+  $('#cases-carousel .carousel-wrapper .carousel').on("touchstart", function(event){
+    var xClick = event.originalEvent.touches[0].pageX;
+$(this).one("touchmove", function(event){
+  console.log('entered');
+    var xMove = event.originalEvent.touches[0].pageX;
+    if( Math.floor(xClick - xMove) < 5 ){
+        $("#cases-carousel .carousel-wrapper .carousel").carousel('prev');
+    }
+    else if( Math.floor(xClick - xMove) > -5 ){
+        $("#cases-carousel .carousel-wrapper .carousel").carousel('next');
+    }
+});
+$("#cases-carousel .carousel-wrapper .carousel").on("touchend", function(){
+        $(this).off("touchmove");
+});
+});
+
+
+
+
+
 function openNavigation() {
   document.getElementById('mySidebar').style.width = '260px';
   $('.toggle-button').addClass('active-toggler');
