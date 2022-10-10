@@ -17,7 +17,7 @@
 .custom-form-control-2 {
   outline: none;
   background: transparent;
-  border-bottom: var(--light-grey) 2px solid;
+  border-bottom: var(--light-grey) 2.5px solid;
   color: var(--light-grey);
   font: normal normal normal 21px/26px Atkinson Hyperlegible;
   letter-spacing: 0;
@@ -30,64 +30,37 @@
   color: var(--light-grey) !important;
   font: normal normal normal 21px/26px Atkinson Hyperlegible !important;
   letter-spacing: 0 !important;
-  padding-left: 2.8rem;
+  padding-left: 3rem;
 }
 
 .search-input:focus {
   background-color: transparent !important;
-  padding-left: 2.8rem;
+  padding-left: 3rem;
 }
-
-
 
 .search-input:not(:placeholder-shown) {
-  padding-left: 2.8rem;
+  padding-left: 3rem;
 }
-
-
 
 .filter-input:focus {
   background-color: transparent !important;
 }
 
-// .custom-form-control-2:focus::-webkit-input-placeholder {
-//   opacity: 0;
-//   background-color: transparent !important;
-//   padding-left: 2.8rem;
-// }
-
-// .custom-form-control-2:focus::-moz-placeholder {
-//  opacity: 0;
-//  background-color: transparent !important;
-//  padding-left: 2.8rem;
-// }
-
-// .custom-form-control-2:-ms-input-placeholder {
-//   opacity: 0;
-//   background-color: transparent !important;
-//   padding-left: 2.8rem;
-// }
-
-// .custom-form-control-2:-moz-placeholder {
-//  opacity: 0;
-//  background-color: transparent !important;
-//  padding-left: 2.8rem;
-// }
-
 .search-input {
   max-width: 24rem;
   background-image: url('../images/icons/magnifying-glass-solid.svg');
   background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: left 45%;
+  background-size: 24px 24px;
+  background-position: left 50%;
 }
 
 .filter-input {
   max-width: 24rem;
   background-image: url('../images/icons/feathers.svg');
   background-repeat: no-repeat;
-  background-size: 20px 20px;
-  background-position: center left;
+  background-size: 26px 26px;
+  background-position: left 50%;
+  padding-left: 3.5rem;
 }
 
 .custom-form-control:focus {

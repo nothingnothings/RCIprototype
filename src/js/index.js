@@ -282,6 +282,58 @@ $('#cases-carousel .carousel-wrapper .carousel').on(
   }
 );
 
+///BOOTSTRAP FILTERS (jquery)
+
+function eachBoxes(type, boxes) {
+  if (type === 'all') {
+    $(boxes).fadeIn();
+  } else {
+    $(boxes).each(function () {
+      if (!$(this).hasClass(type)) {
+        $(this).fadeOut('slow');
+      } else {
+        $(this).fadeIn();
+      }
+    });
+  }
+}
+
+////DROPDOWN filter
+
+$('.filter-input').on('change', function () {
+  let type = $(this).children('option:selected').val();
+  let boxes = $('.article');
+
+  if (type === 'tecnologia') {
+    eachBoxes('tecnologia', boxes);
+  } else if (type === 'inovacao') {
+    eachBoxes('inovacao', boxes);
+  } else if (type === 'cooperacao') {
+    eachBoxes('cooperacao', boxes);
+  } else {
+    eachBoxes('all', boxes);
+  }
+});
+
+
+
+///INPUT FIELD filter
+
+$(document).ready(function(){
+  $(".search-input").on("keyup", function() {
+   
+    var value = $(this).val().toLowerCase();
+    $("#articles-filter .container .row .article").filter(function() {
+      console.log('ENTERED');
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+
+
+
+///NAVBAR
 function openNavigation() {
   document.getElementById('mySidebar').style.width = '260px';
   $('.toggle-button').addClass('active-toggler');
