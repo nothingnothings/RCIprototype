@@ -540,8 +540,22 @@ body {
   padding: 0.6rem 1.945rem;
 }
 
+
+
 .internships {
   padding: 0.6rem 3.4rem;
+}
+
+
+@media (max-width: 520px) {
+
+  .jobs {
+    padding: 0.6rem 1rem;
+  }
+  .internships {
+    padding: 0.6rem 2.7rem;
+  }
+  
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
