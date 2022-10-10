@@ -85,8 +85,8 @@ main {
 
 // .blue-img {
 //   width: 100%;
-  // filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
-  //   url(#svgTint);
+// filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
+//   url(#svgTint);
 // }
 
 .svg-overlay {
@@ -327,36 +327,27 @@ main {
   }
 }
 
-
-@media (max-width: 420px) {
+@media (max-width: 429px) {
   .custom-navbar {
     margin-left: 1rem;
   }
-  
+
   .toggle-button {
     margin-right: 2rem !important;
   }
-
-
 }
 
 @media (max-width: 400px) {
   .custom-navbar {
     margin-left: 0rem;
   }
-
-
 }
-
 
 @media (max-width: 370px) {
   .toggle-button {
     margin-right: 1rem !important;
   }
-
-
 }
-
 
 //CUSTOM-MENU-ITEMS
 
@@ -823,25 +814,16 @@ main {
   }
 }
 
-
-//PARTNER-LOGO 
-
-
+//PARTNER-LOGO
 
 @media (max-width: 440px) {
-
   .partner-logo {
     max-width: 180px;
   }
-
 }
 
-
-
 @media (max-width: 400px) {
-
   .partner-logo {
     max-width: 160px;
   }
-
 }
