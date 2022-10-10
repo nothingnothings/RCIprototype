@@ -90,6 +90,13 @@
   margin-top: 1.22rem;
 }
 
+@media (max-width: 564px) {
+  .custom-form-control-label {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
 .custom-form-textarea {
   margin-top: 1.5rem;
 }
