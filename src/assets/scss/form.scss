@@ -97,6 +97,12 @@
 .custom-select {
   color: var(--white-3);
   appearance: none;
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  background-image: url('../images/icons/down-arrow.svg');
+  background-repeat: no-repeat;
+  background-position: 96% 50%;
+  background-size: 24px 24px;
+  margin-top: -0.4rem;
 }
 
 .custom-select:visited {

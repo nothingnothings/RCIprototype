@@ -75,6 +75,7 @@ import '../assets/images/logos/RCI_ASSETS_Logos_Varicent.png';
 
 import '../assets/images/icons/feathers.svg';
 import '../assets/images/icons/magnifying-glass-solid.svg';
+import '../assets/images/icons/down-arrow.svg';
 
 //fonts
 import '../assets/fonts/ProductSansMedium.ttf';

@@ -10,6 +10,11 @@
   background-color: var(--white);
 }
 
+#cases-carousel-2 {
+  min-height: 80vh;
+  background-color: var(--white);
+}
+
 #cases-partners {
   min-height: 140vh;
   background-color: var(--white);
@@ -422,7 +427,6 @@
 }
 
 @media (max-width: 1406px) {
-
   .info-quote__line {
     padding-left: 0rem !important;
     padding-right: 0rem !important;
