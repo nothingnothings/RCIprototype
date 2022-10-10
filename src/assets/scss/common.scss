@@ -79,11 +79,15 @@ main {
   filter: brightness(0.25);
 }
 
-.blue-img {
-  width: 100%;
-  filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
-    url(#svgTint);
+.blue-background {
+  filter: url(#svgTint);
 }
+
+// .blue-img {
+//   width: 100%;
+  // filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
+  //   url(#svgTint);
+// }
 
 .svg-overlay {
   position: absolute;
@@ -322,6 +326,39 @@ main {
     margin-right: 3rem !important;
   }
 }
+
+
+@media (max-width: 420px) {
+  .custom-navbar {
+    margin-left: 1rem;
+  }
+  
+  .toggle-button {
+    margin-right: 2rem !important;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  .custom-navbar {
+    margin-left: 0rem;
+  }
+
+
+}
+
+
+@media (max-width: 370px) {
+  .toggle-button {
+    margin-right: 1rem !important;
+  }
+
+
+}
+
+
+//CUSTOM-MENU-ITEMS
 
 .custom-menu-items {
   margin-right: 7rem;
@@ -784,4 +821,27 @@ main {
   .instagram-row {
     margin-left: -30px;
   }
+}
+
+
+//PARTNER-LOGO 
+
+
+
+@media (max-width: 440px) {
+
+  .partner-logo {
+    max-width: 180px;
+  }
+
+}
+
+
+
+@media (max-width: 400px) {
+
+  .partner-logo {
+    max-width: 160px;
+  }
+
 }
