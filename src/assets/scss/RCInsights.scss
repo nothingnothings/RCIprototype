@@ -1,8 +1,59 @@
 ////INSIGHT-HIGHLIGHT
 
 #insight-highlight {
-  min-height: 75vh;
+  // min-height: 75vh;
   background-color: var(--blue);
+}
+
+.highlight-image {
+}
+
+@media (max-width: 1550px) {
+  .highlight-image {
+    margin-right: 7rem !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .highlight-image {
+    margin-right: 9rem !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .highlight-image {
+    margin-right: 11rem !important;
+  }
+
+  .insight-highlight-big-title h1 {
+    font: normal normal normal 38px/47px Atkinson Hyperlegible !important;
+  }
+
+  .insight-highlight__line {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  .highlight-image {
+    margin-right: 12rem !important;
+  }
+}
+
+@media (max-width: 1125px) {
+  .highlight-image {
+    margin-right: 14rem !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .highlight-image {
+    margin-right: 9rem !important;
+  }
+  .highlight-image img {
+    max-width: 30rem;
+  }
 }
 
 .insight-highlight-small-header h5 {
