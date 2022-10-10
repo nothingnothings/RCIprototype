@@ -235,6 +235,14 @@ body {
   }
 }
 
+
+@media (max-width: 576px) {
+  .client-image img {
+    min-width: 11rem;
+  }
+}
+
+
 @media (max-width: 982px) {
   .client-quote__line {
     font-size: 21px;
@@ -279,6 +287,16 @@ body {
 .client-link-line {
   color: var(--blue) !important;
 }
+
+
+
+@media (max-width: 600px) {
+  .client-link-line {
+      font-size: 18px;
+      line-height: 24px;
+  }
+}
+
 
 .client-arrow-line,
 .client-arrow,
