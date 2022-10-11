@@ -83,12 +83,6 @@ main {
   filter: url(#svgTint);
 }
 
-// .blue-img {
-//   width: 100%;
-// filter: brightness(87%) contrast(86%) hue-rotate(283deg) saturate(290%)
-//   url(#svgTint);
-// }
-
 .svg-overlay {
   position: absolute;
   z-index: 2;
@@ -514,10 +508,6 @@ main {
 //CARDS
 
 .card {
-  // min-width: 24vw;
-  //min-width: 18vw;
-  // max-width: 20vw; //importante
-  // min-height: 45vh;
   background-color: var(--white-1);
   border: none;
   border-bottom: 15px solid var(--blue);
@@ -713,7 +703,7 @@ main {
   letter-spacing: 0px;
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   .direct-quote-transcription--line {
     font: normal normal normal 28px/35px Atkinson Hyperlegible;
   }

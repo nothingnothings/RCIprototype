@@ -235,13 +235,11 @@ body {
   }
 }
 
-
 @media (max-width: 576px) {
   .client-image img {
     min-width: 11rem;
   }
 }
-
 
 @media (max-width: 982px) {
   .client-quote__line {
@@ -288,15 +286,12 @@ body {
   color: var(--blue) !important;
 }
 
-
-
 @media (max-width: 600px) {
   .client-link-line {
-      font-size: 18px;
-      line-height: 24px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
-
 
 .client-arrow-line,
 .client-arrow,
@@ -558,22 +553,17 @@ body {
   padding: 0.6rem 1.945rem;
 }
 
-
-
 .internships {
   padding: 0.6rem 3.4rem;
 }
 
-
 @media (max-width: 520px) {
-
   .jobs {
     padding: 0.6rem 1rem;
   }
   .internships {
     padding: 0.6rem 2.7rem;
   }
-  
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

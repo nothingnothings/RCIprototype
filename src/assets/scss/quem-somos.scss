@@ -17,133 +17,6 @@
   min-height: 245vh;
   background-color: var(--white);
 }
-
-// @media (max-width: 1800px) {
-//   #comments {
-//     min-height: 245vh;
-//   }
-// }
-
-// @media (max-width: 1480px) {
-//   #comments {
-//     min-height: 250vh;
-//   }
-// }
-
-// @media (max-width: 1460px) {
-//   #comments {
-//     min-height: 255vh;
-//   }
-// }
-
-// @media (max-width: 1460px) {
-//   #comments {
-//     min-height: 250vh;
-//   }
-// }
-
-// @media (max-width: 1370px) {
-//   #comments {
-//     min-height: 255vh;
-//   }
-// }
-
-// @media (max-width: 1370px) {
-//   #comments {
-//     min-height: 258vh;
-//   }
-// }
-
-// @media (max-width: 1282px) {
-//   #comments {
-//     min-height: 260vh;
-//   }
-// }
-
-// @media (max-width: 1255px) {
-//   #comments {
-//     min-height: 265vh;
-//   }
-// }
-
-// @media (max-width: 1230px) {
-//   #comments {
-//     min-height: 267vh;
-//   }
-// }
-
-// @media (max-width: 1200px) {
-//   #comments {
-//     min-height: 240vh;
-//   }
-// }
-
-// @media (max-width: 1080px) {
-//   #comments {
-//     min-height: 244vh;
-//   }
-// }
-
-// @media (max-width: 1070px) {
-//   #comments {
-//     min-height: 246vh;
-//   }
-// }
-
-// @media (max-width: 992px) {
-//   #comments {
-//     height: 352vh;
-//   }
-// }
-
-// @media (max-width: 922px) {
-//   #comments {
-//     height: 357vh;
-//   }
-// }
-
-// @media (max-width: 892px) {
-//   #comments {
-//     height: 362vh;
-//   }
-// }
-
-// @media (max-width: 825px) {
-//   #comments {
-//     height: 365vh;
-//   }
-// }
-
-// @media (max-width: 820px) {
-//   #comments {
-//     height: 368vh;
-//   }
-// }
-
-// @media (max-width: 777px) {
-//   #comments {
-//     height: 372vh;
-//   }
-// }
-
-// @media (max-width: 700px) {
-//   #comments {
-//     height: 375vh;
-//   }
-// }
-
-// @media (max-width: 630px) {
-//   #comments {
-//     height: 380vh;
-//   }
-// }
-
-// @media (max-width: 590px) {
-//   #comments {
-//     height: 500vh;
-//   }
-// }
-
 .card-comment {
   max-width: 18vw;
   min-height: 40vh;
@@ -283,12 +156,6 @@
     min-width: 27rem;
   }
 }
-
-// @media (max-width: 545px) {
-//   .motive-image img {
-//     min-width: 27rem;
-//   }
-// }
 
 @media (max-width: 520px) {
   .motive-image img {
@@ -439,14 +306,11 @@
   }
 }
 
-
-
 @media (max-width: 500px) {
   .comment-image {
     margin-bottom: 29.5rem;
   }
 }
-
 
 @media (max-width: 470px) {
   .comment-image {
@@ -454,15 +318,11 @@
   }
 }
 
-
-
-
 @media (max-width: 430px) {
   .comment-image {
     margin-bottom: 35.5rem;
   }
 }
-
 
 .person-name {
   font-weight: bold;
@@ -672,7 +532,7 @@
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .prize-example {
     max-width: 3rem;
     min-height: 6rem;
@@ -955,8 +815,6 @@
   top: -10%;
   left: 70%;
 }
-
-
 
 @media (max-width: 560px) {
   .comment-quote__line {
