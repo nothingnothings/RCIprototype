@@ -94,7 +94,6 @@
 }
 
 @media (max-width: 405px) {
-
   .insight-highlight__line {
     font-size: 18px !important;
     line-height: 24px !important;
@@ -104,8 +103,6 @@
     font: normal normal normal 28px/35px Atkinson Hyperlegible !important;
   }
 }
-
-
 
 .insight-highlight-small-header h5 {
   color: var(--light-yellow);
@@ -186,6 +183,20 @@
 .insight-highlight-link:hover::after {
   opacity: 1;
   text-decoration: none;
+}
+
+////SHOW-MORE
+
+.show-more {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  color: var(--light-grey);
+  font-family: 'Sprint Sans', sans-serif;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  opacity: 1;
 }
 
 ////cases-carousel - CUSTOM (case-card-carousel-video)
