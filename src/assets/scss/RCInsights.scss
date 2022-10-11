@@ -199,6 +199,32 @@
   opacity: 1;
 }
 
+.show-more-wrapper {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.show-more-wrapper:hover > h1,
+.show-more-wrapper:active > h1 {
+  color: var(--dark);
+  transition: 0.2s ease-out;
+}
+
+.show-more-wrapper:hover > .show-more-arrow,
+.show-more-wrapper:active > .show-more-arrow {
+  transition: 0.2s ease-out;
+  transform: translateY(0.4rem);
+}
+
+
+
+.show-more-wrapper:hover > .show-more-arrow > svg > g > path,
+.show-more-wrapper:active > .show-more-arrow > svg > g > path {
+  fill: var(--dark) !important;
+  stroke: var(--dark) !important;
+  transition: 0.2s ease-out;
+}
+
 ////cases-carousel - CUSTOM (case-card-carousel-video)
 
 .case-card-carousel-video {
