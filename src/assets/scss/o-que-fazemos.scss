@@ -10,10 +10,10 @@
   background-color: var(--white);
 }
 
-#cases-carousel-2 {
-  min-height: 80vh;
-  background-color: var(--white);
-}
+// #cases-carousel-2 {
+//   min-height: 80vh;
+//   background-color: var(--white);
+// }
 
 #cases-partners {
   min-height: 140vh;
@@ -343,6 +343,33 @@
 @media (max-width: 435px) {
   .case-card-carousel {
     min-width: 200px;
+  }
+
+  .case-card-col {
+    padding-right: 4px !important;
+  }
+
+}
+
+
+@media (max-width: 422px) {
+  .case-card-carousel {
+    min-width: 200px;
+  }
+
+  .case-card-col {
+    padding-right: 0px !important;
+  }
+
+}
+
+@media (max-width: 415px) {
+  .case-card-carousel {
+    min-width: 200px;
+  }
+
+  .case-card-col {
+    padding-left: 8px !important;
   }
 
 }
