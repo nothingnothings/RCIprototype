@@ -47,6 +47,53 @@
   letter-spacing: 0px;
 }
 
+
+
+@media (max-width: 700px) {
+
+  .amount {
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .comp-description {
+    font: normal normal bold 18px/22px Atkinson Hyperlegible;
+  }
+
+
+}
+
+
+
+@media (max-width: 576px) {
+
+  .amount {
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .comp-description {
+    font: normal normal bold 16px/20px Atkinson Hyperlegible;
+  }
+
+  .data-box {
+    width: 80%;
+  }
+}
+
+
+
+@media (max-width: 520px) {
+
+  .data-box {
+    width: 90%;
+  }
+
+  .comp-description {
+    font: normal normal bold 14px/18px Atkinson Hyperlegible;
+  }
+}
+
 ////////////  EXPOSITION-TEXT
 
 #exposition-text, #exposition-text-2 {
@@ -106,5 +153,9 @@
     letter-spacing: 0;
 }
 
+
+.text-call-line {
+  word-break: keep-all;
+}
 
  
