@@ -316,23 +316,17 @@ $('.filter-input').on('change', function () {
   }
 });
 
-
-
 ///INPUT FIELD filter
 
-$(document).ready(function(){
-  $(".search-input").on("keyup", function() {
-   
+$(document).ready(function () {
+  $('.search-input').on('keyup', function () {
     var value = $(this).val().toLowerCase();
-    $("#articles-filter .container .row .article").filter(function() {
+    $('#articles-filter .container .row .article').filter(function () {
       console.log('ENTERED');
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   });
 });
-
-
-
 
 ///NAVBAR
 function openNavigation() {
