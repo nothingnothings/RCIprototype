@@ -1,0 +1,50 @@
+///TEXT-CALLS 
+
+
+
+.text-call-image img {
+max-width: 640px;
+min-height: 400px;
+}
+
+
+
+
+
+
+@media(max-width: 1750px) {
+
+    .text-call-image img {
+        max-width: 600px;
+        min-height: 380px;
+        }
+
+        .text-call-header {
+            font: normal normal normal 38px/47px Atkinson Hyperlegible;
+        }
+
+        .text-call__line {
+            font: normal normal normal 18px/24px Atkinson Hyperlegible;
+        }
+
+}
+
+
+@media(max-width: 1570px) {
+
+
+    .text-call-image img {
+        max-width: 560px;
+        min-height: 360px;
+        }
+}
+
+
+
+@media(max-width: 1550px) {
+
+
+    .text-call-image img {
+        min-height: 390px;
+        }
+}
