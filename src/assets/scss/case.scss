@@ -47,10 +47,7 @@
   letter-spacing: 0px;
 }
 
-
-
 @media (max-width: 700px) {
-
   .amount {
     font-size: 38px;
     line-height: 45px;
@@ -59,14 +56,9 @@
   .comp-description {
     font: normal normal bold 18px/22px Atkinson Hyperlegible;
   }
-
-
 }
 
-
-
 @media (max-width: 576px) {
-
   .amount {
     font-size: 27px;
     line-height: 35px;
@@ -81,10 +73,7 @@
   }
 }
 
-
-
 @media (max-width: 520px) {
-
   .data-box {
     width: 90%;
   }
@@ -96,7 +85,8 @@
 
 ////////////  EXPOSITION-TEXT
 
-#exposition-text, #exposition-text-2 {
+#exposition-text,
+#exposition-text-2 {
   // height: 80vh;
 }
 
@@ -114,6 +104,52 @@
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
+
+@media (min-width: 1950px) and (max-width: 2200px) {
+  .paragraph-container {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 1949px) {
+  .paragraph-container {
+    max-width: 1380px !important;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .paragraph-container {
+    max-width: 1100px !important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .paragraph-container {
+    max-width: 1000px !important;
+  }
+}
+
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .paragraph-container {
+    max-width: 950px !important;
+  }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .paragraph-container {
+    max-width: 930px !important;
+  }
+}
+
+// .exposition-text-padding-1 {
+//   padding-right: 150px;
+// }
+
+// .exposition-text-padding-2 {
+//   padding-left: 150px;
+// }
 
 ///TEXT-CALLS
 
@@ -148,14 +184,11 @@
 }
 
 .text-call-info-position {
-    color: var(--grey);
-    font: normal normal normal 21px/26px Atkinson Hyperlegible;
-    letter-spacing: 0;
+  color: var(--grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0;
 }
-
 
 .text-call-line {
   word-break: keep-all;
 }
-
- 

@@ -739,16 +739,37 @@ main {
   min-height: 80vh;
 }
 
-.portrait-img {
-  max-width: 80%;
-  max-height: 90vh;
-  border: 1px solid var(--grey);
+// .portrait-img {
+//   max-width: 80%;
+//   max-height: 90vh;
+//   border: 1px solid var(--grey);
+// }
+
+// .portrait-img-2 {
+//   height: auto;
+//   max-width: 100%;
+//   border: 1px solid var(--grey);
+// }
+
+@media (min-width: 1401px) and (max-width: 2400px) {
+  .portrait-img-2 {
+    min-width: 72vw;
+    max-height: 90vh;
+  }
 }
 
-.portrait-img-2 {
-  max-height: 90vh;
-  min-width: 70%;
-  border: 1px solid var(--grey);
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .portrait-img-2 {
+    min-width: 82vw;
+    max-height: 90vh;
+  }
+}
+
+@media (min-width: 892px) and (max-width: 1200px) {
+  .portrait-img-2 {
+    min-width: 85vw;
+    max-height: 90vh;
+  }
 }
 
 ////INSTAGRAM CARDS
