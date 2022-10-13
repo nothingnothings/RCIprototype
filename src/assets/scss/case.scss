@@ -129,13 +129,11 @@
   }
 }
 
-
 @media (min-width: 1300px) and (max-width: 1400px) {
   .paragraph-container {
     max-width: 950px !important;
   }
 }
-
 
 @media (min-width: 1201px) and (max-width: 1300px) {
   .paragraph-container {
@@ -153,9 +151,9 @@
 
 ///TEXT-CALLS
 
-#text-calls {
-  min-height: 80vh;
-}
+// #text-calls {
+//   min-height: 80vh;
+// }
 
 .text-call-header {
   color: var(--dark);
