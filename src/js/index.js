@@ -33,6 +33,7 @@ import '../assets/images/page-objects/Grupo84.png';
 import '../assets/images/page-objects/Grupo85.png';
 import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Grupo2.jpg';
+import '../assets/images/page-objects/Grupo830.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_04.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_07.png';
 import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
