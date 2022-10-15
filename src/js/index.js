@@ -1,3 +1,6 @@
+//HTML sanitizer
+import sanitizeHtml from 'sanitize-html';
+
 //bootstrap defaults editing
 import '../assets/scss/main.scss';
 
@@ -238,9 +241,7 @@ $(document).ready(function () {
 $('#cases-carousel .carousel-wrapper .carousel')
   .carousel({})
   .on('slid.bs.carousel', function (par1, par2) {
-    console.log('EVENT', par1, 'example', par2);
     var currentSlide = $('.active');
-    console.log(currentSlide);
     if (currentSlide.is(':first-child')) {
       $('.carousel-control-prev')
         .css('pointer-events', 'none')
@@ -268,7 +269,53 @@ $('#cases-carousel .carousel-wrapper .carousel').on(
   function (event) {
     var xClick = event.originalEvent.touches[0].pageX;
     $(this).one('touchmove', function (event) {
-      console.log('entered');
+      var xMove = event.originalEvent.touches[0].pageX;
+      if (Math.floor(xClick - xMove) < 5) {
+        $('#cases-carousel .carousel-wrapper .carousel').carousel('prev');
+      } else if (Math.floor(xClick - xMove) > -5) {
+        $('#cases-carousel .carousel-wrapper .carousel').carousel('next');
+      }
+    });
+    $('#cases-carousel .carousel-wrapper .carousel').on(
+      'touchend',
+      function () {
+        $(this).off('touchmove');
+      }
+    );
+  }
+);
+
+$('#cases-carousel-2 .carousel-wrapper .carousel')
+  .carousel({})
+  .on('slid.bs.carousel', function (par1, par2) {
+    var currentSlide = $('.active');
+    if (currentSlide.is(':first-child')) {
+      $('.carousel-control-prev')
+        .css('pointer-events', 'none')
+        .addClass('inactive-control');
+      return;
+    } else {
+      $('.carousel-control-prev')
+        .css('pointer-events', 'auto')
+        .removeClass('inactive-control');
+    }
+    if (currentSlide.is(':last-child')) {
+      $('.carousel-control-next')
+        .css('pointer-events', 'none')
+        .addClass('inactive-control');
+      return;
+    } else {
+      $('.carousel-control-next')
+        .css('pointer-events', 'auto')
+        .removeClass('inactive-control');
+    }
+  });
+
+$('#cases-carousel-2 .carousel-wrapper .carousel').on(
+  'touchstart',
+  function (event) {
+    var xClick = event.originalEvent.touches[0].pageX;
+    $(this).one('touchmove', function (event) {
       var xMove = event.originalEvent.touches[0].pageX;
       if (Math.floor(xClick - xMove) < 5) {
         $('#cases-carousel .carousel-wrapper .carousel').carousel('prev');
@@ -324,7 +371,6 @@ $(document).ready(function () {
   $('.search-input').on('keyup', function () {
     var value = $(this).val().toLowerCase();
     $('#articles-filter .container .row .article').filter(function () {
-      console.log('ENTERED');
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
     });
   });

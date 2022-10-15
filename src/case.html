@@ -669,7 +669,7 @@ request.send();
                 <div class="container-fluid">
                     <div class="row d-flex justify-content-center">
                         <div class="container flex-nowrap mt-5 pt-5">
-                            <form action="">
+                            <form action="" class="needs-validation" novalidate>
                                 <div class="row mt-4 mb-5 mb-md-0 pb-5 pb-md-0">
                                     <div class="col-6 pr-5">
                                         <div class="form-group">
@@ -681,6 +681,7 @@ request.send();
                                                 required
                                                 placeholder="Nome Sobrenome"
                                             >
+                                            <div class="invalid-feedback">Por favor insira seu nome</div>
                                         </div>
                                         <div class="form-group">
                                             <label for="email" class="custom-form-control-label">Email*</label>
@@ -691,9 +692,10 @@ request.send();
                                                 required
                                                 placeholder="nome@empresa.com"
                                             >
+                                            <div class="invalid-feedback">Por favor insira seu email</div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="telefone" class="custom-form-control-label">Telefone*</label>
+                                            <label for="telefone" class="custom-form-control-label">Telefone</label>
                                             <input
                                                 type="tel"
                                                 name="phone"
@@ -713,23 +715,26 @@ request.send();
                                     </div>
                                     <div class="col-6 pl-5">
                                         <div class="form-group">
-                                            <label for="motivo" class="custom-form-control-label text-nowrap">Motivo do Contato*</label>
-                                            <select class="form-control custom-form-control custom-select" name="reason">
+                                            <label for="motivo" class="custom-form-control-label text-md-nowrap">Motivo do Contato*</label>
+                                            <select class="form-control custom-form-control custom-select" name="reason" required>
                                                 <option value="" selected>Selecione uma opção...</option>
                                                 <option value="informacoes">Informações</option>
                                                 <option value="contratacao">Contratação</option>
                                                 <option value="sugestoes">Sugestões</option>
                                             </select>
+                                            <div class="invalid-feedback">Por favor escolha um motivo para o seu contato</div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="empresa" class="custom-form-control-label custom-form-textarea text-nowrap">Escreva-nos uma mensagem!*</label>
+                                            <label for="descricao" class="custom-form-control-label custom-form-textarea text-nowrap">Escreva-nos uma mensagem!*</label>
                                             <textarea
                                                 style="margin-top: 0.45rem;"
                                                 class="form-control custom-form-control"
                                                 name="message"
                                                 rows="6"
                                                 placeholder="Escreva sua mensagem aqui..."
+                                                required
                                             ></textarea>
+                                            <div class="invalid-feedback">Por favor insira sua mensagem</div>
                                         </div>
                                         <div class="button-wrapper d-flex justify-content-end pt-2">
                                             <button type="submit" class="form-button mt-4 mt-sm-4 mt-md-5">
@@ -974,5 +979,18 @@ request.send();
                     </div>
                 </div>
             </footer>
+            <script>
+                var form = document.querySelector('.needs-validation');
+            
+                form.addEventListener('submit', function(event) {
+            
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+            
+                    form.classList.add('was-validated');
+                })
+        </script>
         </body>
     </html>
