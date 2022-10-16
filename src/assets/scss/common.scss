@@ -805,3 +805,100 @@ main {
     max-width: 160px;
   }
 }
+
+////////////  EXPOSITION-TEXT
+
+.exposition-text-paragraph {
+  color: var(--grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  margin-bottom: 2rem;
+}
+
+.exposition-text-paragraph-bold {
+  color: var(--dark);
+  font: normal normal normal 28px/35px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 1950px) and (max-width: 2200px) {
+  .paragraph-container {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 1949px) {
+  .paragraph-container {
+    max-width: 1380px !important;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .paragraph-container {
+    max-width: 1100px !important;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .paragraph-container {
+    max-width: 1000px !important;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .paragraph-container {
+    max-width: 950px !important;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1300px) {
+  .paragraph-container {
+    max-width: 930px !important;
+  }
+}
+
+////TEXT-CALLS
+
+.text-call-header {
+  color: var(--dark);
+  font: normal normal normal 51px/60px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+}
+
+.text-call-header-special {
+  color: var(--dark);
+  font: normal normal normal 38px/47px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+}
+
+.text-call__line {
+  color: var(--grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  margin-bottom: 0;
+}
+
+.text-call-info-big {
+  font: normal normal normal 38px/47px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  color: var(--dark);
+}
+
+.text-call-info-name {
+  color: var(--blue);
+  font: normal normal bold 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.text-call-info-position {
+  color: var(--grey);
+  font: normal normal normal 21px/26px Atkinson Hyperlegible;
+  letter-spacing: 0;
+}
+
+.text-call-line {
+  word-break: keep-all;
+}
