@@ -11,7 +11,7 @@ import '../assets/scss/form.scss';
 import '../assets/scss/footer.scss';
 import '../assets/scss/quem-somos.scss';
 import '../assets/scss/o-que-fazemos.scss';
-import '../assets/scss/RCInsights.scss';
+import '../assets/scss/insights.scss';
 import '../assets/scss/insight.scss';
 import '../assets/scss/case.scss';
 import '../assets/scss/article.scss';
@@ -37,9 +37,6 @@ import '../assets/images/page-objects/Grupo85.png';
 import '../assets/images/page-objects/Grupo28.png';
 import '../assets/images/page-objects/Grupo2.jpg';
 import '../assets/images/page-objects/Grupo830.png';
-import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_04.png';
-import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_07.png';
-import '../assets/images/page-objects/RCI_POSTS_DE_ATIVAÇÃO_DA_MARCA_08.png';
 import '../assets/images/page-objects/Retangulo9.png';
 import '../assets/images/page-objects/Retangulo10.png';
 import '../assets/images/page-objects/Retangulo11.png';
@@ -66,16 +63,6 @@ import '../assets/images/page-objects/video-5.png';
 import '../assets/images/page-objects/video-6.png';
 import '../assets/images/page-objects/video-7.png';
 
-//logos
-import '../assets/images/logos/RCI_ASSETS_Logos_CLOUDERA.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_DELL.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_IBM.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_INGRAM.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_OUTSYSTEMS.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_SQREAM.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_TABLEAU.png';
-import '../assets/images/logos/RCI_ASSETS_Logos_Varicent.png';
-
 //icons
 
 import '../assets/images/icons/feathers.svg';
@@ -86,16 +73,6 @@ import '../assets/images/icons/down-arrow.svg';
 import '../assets/fonts/ProductSansMedium.ttf';
 import '../assets/fonts/SprintSansMedium.otf';
 
-import favIcon16 from '../assets/images/favicon-16x16.png';
-import favIcon32 from '../assets/images/favicon-32x32.png';
-import favIcon from '../assets/images/favicon.ico';
-import favIconApple from '../assets/images/apple-touch-icon.png';
-import android192 from '../assets/images/android-chrome-192x192.png';
-import android512 from '../assets/images/android-chrome-512x512.png';
-import webManifest from '../assets/images/site.webmanifest';
-import mstTile from '../assets/images/mstile-150x150.png';
-import safariPinned from '../assets/images/safari-pinned-tab.svg';
-import browserConfig from '../assets/images/browserconfig.xml';
 
 var toggleButton = document.querySelector('.toggle-button');
 var closeBtn = document.querySelector('.closebtn');
