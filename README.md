@@ -4,6 +4,8 @@
 
 This project is a simple multi-page web application built with Webpack. It's a replica of the structure of the [RCIIT](https://www.rciit.com/) website, but developed independently by me, with original markup and styles. The primary goal of this project was to practice Bootstrap class usage and to showcase an example of a basic structure that can be used for webpack projects. The project can be visited here: [https://nothingnothings.github.io/bootstrapTraining/](https://nothingnothings.github.io/bootstrapTraining/).
 
+[![en](https://img.shields.io/badge/lang-en-red.svg?style=flat-square)](https://github.com/nothingnothings/bootstrapTraining)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg?style=flat-square)](https://github.com/nothingnothings/bootstrapTraining/blob/master/README.pt-br.md)
 
 ## Features
 
