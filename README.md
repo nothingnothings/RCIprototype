@@ -1,6 +1,6 @@
 # BootstrapTraining
 
-This project is a simple multi-page web application built with Webpack. It was inspired by the site [RCIIT](https://www.rciit.com/) but developed independently by me, with original markup and styles. The primary goal of this project was to practice Bootstrap class usage and to showcase an example of basic structure that can be used for webpack projects. The project can be visited here: [https://nothingnothings.github.io/bootstrapTraining/](https://nothingnothings.github.io/bootstrapTraining/)
+This project is a simple multi-page web application built with Webpack. It was inspired by the site [RCIIT](https://www.rciit.com/) but developed independently by me, with original markup and styles. The primary goal of this project was to practice Bootstrap class usage and to showcase an example of a basic structure that can be used for webpack projects. The project can be visited here: [https://nothingnothings.github.io/bootstrapTraining/](https://nothingnothings.github.io/bootstrapTraining/)
 
 
 ## Features
